@@ -1,0 +1,11 @@
+.container{
+    height: 813px;
+    width: 435px;
+    background-color: yellow;
+    display: flex;
+}
+.nav{
+    width: 435px;
+height: 67px;
+background-color: #F00;
+}
