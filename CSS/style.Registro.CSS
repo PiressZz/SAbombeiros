@@ -163,6 +163,12 @@ html {
     /* border: 1px solid black; */
 }
 
+.JaTenhoCadastro{
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+
 
 input {
     padding: 20px;
