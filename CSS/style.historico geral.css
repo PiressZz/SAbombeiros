@@ -84,3 +84,71 @@ html {
 .texto_geral>p{
     font-size: 40px;
 }
+
+.busca_historico_individual{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    background-color: #F00;
+    border: 1px solid black;
+}
+
+.historico_individual{
+    height: 70%;
+    width: 100%;
+    flex-direction: column;
+    background-color: #F00;
+    border: 1px solid black;
+}
+
+.historico_pessoa1{
+    height: 13%;
+    width: 100%;
+    display: flex;
+    background-color: #F00;
+    border: 1px solid black;
+}
+.historico_pessoa1>input{
+    height: 70%;
+    width: 80%;
+}
+
+.historico_pessoa2{
+    height: 13%;
+    width: 100%;
+    display: flex;
+    background-color: #F00;
+    border: 1px solid black;
+}
+
+.historico_pessoa3{
+    height: 13%;
+    width: 100%;
+    display: flex;
+    background-color: #F00;
+    border: 1px solid black;
+}
+
+.historico_pessoa4{
+    height: 13%;
+    width: 100%;
+    display: flex;
+    background-color: #F00;
+    border: 1px solid black;
+}
+
+.historico_pessoa5{
+    height: 13%;
+    width: 100%;
+    display: flex;
+    background-color: #F00;
+    border: 1px solid black;
+}
+
+.historico_pessoa6{
+    height: 13%;
+    width: 100%;
+    display: flex;
+    background-color: #F00;
+    border: 1px solid black;
+}
