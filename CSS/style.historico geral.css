@@ -54,8 +54,8 @@ html {
     width: 100%;
     height: 20%;
     flex-direction: column;
-    background-color: blue;
-    border: 1px solid black;
+    background-color: white;
+    /* border: 1px solid black; */
     
 }
 
@@ -63,61 +63,113 @@ html {
     width: 100%;
     height: 50%;
     display: flex;
-    background-color: blue;
-    border: 1px solid black;
+    background-color: white;
+    /* border: 1px solid black; */
     align-items:center;
     justify-content: center;
 }
 .texto_histórico>p{
     font-size: 40px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .texto_geral{
     width: 100%;
     height: 50%;
     display: flex;
-    background-color: blue;
-    border: 1px solid black;
+    background-color: white;
+    /* border: 1px solid black; */
     align-items:end;
     justify-content: center;
 }
 .texto_geral>p{
     font-size: 40px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .busca_historico_individual{
     height: 10%;
     width: 100%;
     display: flex;
-    background-color: #F00;
-    border: 1px solid black;
+    background-color: white;
+    /* border: 1px solid black; */
+    align-items: baseline;
+    justify-content: center;
+}
+.busca_historico_individual>input{
+    height: 60%;
+    width: 80%;
 }
 
 .historico_individual{
     height: 70%;
     width: 100%;
     flex-direction: column;
-    background-color: #F00;
-    border: 1px solid black;
+    background-color: white;
+    /* border: 1px solid black; */
 }
 
 .historico_pessoa1{
     height: 13%;
     width: 100%;
     display: flex;
-    background-color: #F00;
+    background-color: white;
+    /* border: 1px solid black; */
+    align-items:end;
+    justify-content: center;
+}
+
+.area_pessoa1{
+    height: 80%;
+    width: 70%;
+    flex-direction: column;
+    background-color: white;
     border: 1px solid black;
 }
-.historico_pessoa1>input{
-    height: 70%;
-    width: 80%;
+.area_historico_de{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    /* border: 1px solid black; */
+    align-items: end;
+    
+}
+.area_historico_de>P{
+    font-size: 20px;
+    margin: 0 15px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.area_nome_historico{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    /* border: 1px solid black; */
+    align-items: end;
+}
+.area_nome_historico>p{
+    font-size: 16px;
+    margin: 0 5px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .historico_pessoa2{
     height: 13%;
     width: 100%;
     display: flex;
-    background-color: #F00;
+    background-color: white;
+    /* border: 1px solid black; */
+    align-items:end;
+    justify-content: center;
+}
+
+.area_pessoa2{
+    height: 80%;
+    width: 70%;
+    flex-direction: column;
+    background-color: white;
     border: 1px solid black;
 }
 
@@ -125,15 +177,34 @@ html {
     height: 13%;
     width: 100%;
     display: flex;
-    background-color: #F00;
-    border: 1px solid black;
+    background-color: white;
+    /* border: 1px solid black; */
+    align-items:end;
+    justify-content: center;
 }
 
+.area_pessoa3{
+    height: 80%;
+    width: 70%;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid black;
+}
 .historico_pessoa4{
     height: 13%;
     width: 100%;
     display: flex;
-    background-color: #F00;
+    background-color: white;
+    /* border: 1px solid black; */
+    align-items:end;
+    justify-content: center;
+}
+
+.area_pessoa4{
+    height: 80%;
+    width: 70%;
+    flex-direction: column;
+    background-color: white;
     border: 1px solid black;
 }
 
@@ -141,7 +212,17 @@ html {
     height: 13%;
     width: 100%;
     display: flex;
-    background-color: #F00;
+    background-color: white;
+    /* border: 1px solid black; */
+    align-items:end;
+    justify-content: center;
+}
+
+.area_pessoa5{
+    height: 80%;
+    width: 70%;
+    flex-direction: column;
+    background-color: white;
     border: 1px solid black;
 }
 
@@ -149,6 +230,16 @@ html {
     height: 13%;
     width: 100%;
     display: flex;
-    background-color: #F00;
+    background-color: white;
+    /* border: 1px solid black; */
+    align-items:end;
+    justify-content: center;
+}
+
+.area_pessoa6{
+    height: 80%;
+    width: 70%;
+    flex-direction: column;
+    background-color: white;
     border: 1px solid black;
 }
