@@ -13,14 +13,35 @@
                 <img src="../IMAGENS/logo_pequena.png" alt="">
             </div>
         </nav>
-        <h2>Hoverable Dropdown</h2>
-        <p>Move the mouse over the text below to open the dropdown content.</p>
-        
-        <div class="dropdown">
-          <span>Mouse over me</span>
-          <div class="dropdown-content">
-          <p>Hello World!</p>
-          </div>
-        </div>
+        <li class="SecaoCookies">
+            <button onclick="MostrarCookies(this)" class="BotaoCookies">
+                <img src="/img/assets/setacima.svg">
+                <p>Propaganda</p>
+            </button>
+            <div class="InsideListCookies">
+                <label class="IndividualCookies">
+                    <p>Google Ads</p>
+                    <input type="checkbox">
+                </label>
+                <label class="IndividualCookies">
+                    <p>Facebook Pixel</p>
+                    <input type="select">
+                </label>
+            </div>
+        </li>
+        <script>
+        function MostrarCookies(element) {
+            var induvidual = element.closest('.SecaoCookies');
+            var img = element.querySelector('img');
+
+            if (img.style.transform != 'rotate(180deg)') {
+            induvidual.style.maxHeight = 'fit-content';
+            img.style.transform = "rotate(180deg)";
+            } else {
+            induvidual.style.maxHeight = '20px';
+            img.style.transform = "rotate(0)";
+            }
+        }
+        </script>
 </body>
 </html>
