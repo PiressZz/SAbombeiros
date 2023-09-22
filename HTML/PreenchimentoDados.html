@@ -3,45 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Preenchimento Dados</title>
-    <link rel="stylesheet" href="../CSS/style.preenchimentoDados.css">
+    <title>Página de Login</title>
+    <link rel="stylesheet" href="../CSS/style.Login.CSS">
 </head>
 <body>
     <div class="container">
         <nav class="nav">
+            <div class="opcoes"></div>
             <div class="imagem">
                 <img src="../IMAGENS/logo_pequena.png" alt="">
             </div>
         </nav>
-        <li class="SecaoCookies">
-            <button onclick="MostrarCookies(this)" class="BotaoCookies">
-                <img src="/img/assets/setacima.svg">
-                <p>Propaganda</p>
-            </button>
-            <div class="InsideListCookies">
-                <label class="IndividualCookies">
-                    <p>Google Ads</p>
-                    <input type="checkbox">
-                </label>
-                <label class="IndividualCookies">
-                    <p>Facebook Pixel</p>
-                    <input type="select">
-                </label>
-            </div>
-        </li>
-        <script>
-        function MostrarCookies(element) {
-            var induvidual = element.closest('.SecaoCookies');
-            var img = element.querySelector('img');
-
-            if (img.style.transform != 'rotate(180deg)') {
-            induvidual.style.maxHeight = 'fit-content';
-            img.style.transform = "rotate(180deg)";
-            } else {
-            induvidual.style.maxHeight = '20px';
-            img.style.transform = "rotate(0)";
-            }
-        }
-        </script>
+    <div class="tipodeoc">
+        <details style="border: 1px solid black;">
+            <summary>TIPO DE OCORRENCIA pre hospitalar</summary>
+            <form style="display: flex;flex-direction: column;" action="typeocorrenc">
+                <input type="checkbox">
+                <label for="">CAUSADO POR ANIMAIS</label>
+                <input type="checkbox">
+                <label for="">COM MEIO DE TRANSPORTE</label>
+                <input type="checkbox">
+                <label for="">DESMORONAMENTO/DESLIZAMENTO</label>
+                <input type="checkbox">
+                <label for="">EMERGÊNCIA MÉDICA</label>
+                <input type="checkbox">
+                <label for="">QUEDA DE ALTURA 2M</label>
+                <input type="checkbox">
+                <label for="">QUEDA NÍVEL &lt2M </label>
+                <input type="checkbox">
+                <label for="">QUEDA PRÓPRIA ALTURA</label>
+                <input type="checkbox">
+                <label for="">AFOGAMENTO</label>
+                <input type="checkbox">
+                <label for="">AGRESSÃO</label>
+                <input type="checkbox">
+                <label for="">ATROPELAMENTO</label>
+                <input type="checkbox">
+                <label for="">CHOQUE ELÉTRICO</label>
+                <input type="checkbox">
+                <label for="">DESABAMENTO</label>
+                <input type="checkbox">
+                <label for="">ESPORTIVO</label>
+                <input type="checkbox">
+                <label for="">DOMÉSTICO</label>
+                <input type="checkbox">
+                <label for="">INTOXICAÇÃO</label>
+                <input type="checkbox">
+                <label for="">QUEDA BICICLETA</label>
+                <input type="checkbox">
+                <label for="">QUEDA MOTO</label>
+                <input type="checkbox">
+                <label for="">TRABALHO</label>
+                <input type="checkbox">
+                <label for="">TRANSFERÊNCIA</label>
+                <input type="checkbox">
+                <label for="">TENTATIVA DE HOMICIDIO</label>
+                <input type="checkbox">
+                <label for=""></label>
+            </form>
+        </details>
+    </div>
+       
+    </div>
 </body>
 </html>
