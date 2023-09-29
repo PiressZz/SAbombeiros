@@ -9,9 +9,11 @@ html {
 }
 .container{
     height: 813px;
-    width: 435px;
+    width: 100%;
     flex-direction: column;
     border: 0;
+    max-width: 768px;
+    margin: 0 auto;
 }
 .nav{
     width: 100%px;
@@ -53,3 +55,8 @@ html {
     display: flex;
     flex-direction: column;
 } */
+
+.tipodeoc{
+
+
+}
