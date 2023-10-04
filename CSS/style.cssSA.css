@@ -62,13 +62,13 @@ html {
     justify-content: center;
 }
 .nome_paciente>input{
-    width: 85%;
-    height: 30%;
+    width: 80%;
+    height: 20px;
     background-color: white;
     display: flex;
     /* border: 1px solid black; */
-    justify-content: center;
-    align-items: center;
+    justify-content:left;
+    align-items:;
 }
 
 
@@ -82,8 +82,8 @@ html {
     justify-content: center;
 }
 .idade_paciente>input{
-    width: 85%;
-    height: 30%;
+    width: 80%;
+    height: 20px;
     background-color: white;
     display: flex;
     /* border: 1px solid black; */
@@ -102,8 +102,8 @@ html {
     justify-content: center;
 }
 .cpf_paciente>input{
-    width: 85%;
-    height: 30%;
+    width: 80%;
+    height: 10px;
     background-color: white;
     display: flex;
     border: 1px solid black;
@@ -122,8 +122,8 @@ html {
     justify-content: center;
 }
 .local_ocorrencia>input{
-    width: 85%;
-    height: 30%;
+    width: 80%;
+    height: 20px;
     background-color: white;
     display: flex;
     border: 1px solid black;
@@ -722,8 +722,7 @@ p{
 .camp_nome{
     height: 10%;
     width: 100%;
-    background-color: rgb(255, 255, 255);
-    
+    background-color: rgb(255, 255, 255);   
     justify-content: center;f
     align-items: center;
     display: flex;
@@ -862,4 +861,27 @@ btn_registrar{
 
 p{
     font-family: 'Poppins', sans-serif;
+}
+.accordion-body{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 298px;
+}
+
+.accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
+    font-size: 1rem;
+    color: var(--bs-accordion-btn-color);
+    text-align: left;
+    background-color: var(--bs-accordion-btn-bg);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: var(--bs-accordion-transition);
 }
