@@ -1,535 +1,832 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Login</title>
-    <link rel="stylesheet" href="../CSS/style.cssSA.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Login</title>
+  <link rel="stylesheet" href="../CSS/style.cssSA.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
 
 </head>
+
 <body>
   <div class="container-fluid m-0 p-0">
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light d-none d-lg-block p-0">
-            <div class="container">
-                <a class="navbar-brand mb-0 h1" href="#">Bombeiros</a>
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Página Inicial</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contato</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="login.html">Login</a>
-                    </li>
-                </ul>
-            </div>
+      <nav class="navbar navbar-expand-lg navbar-light d-none d-lg-block p-0">
+        <div class="container">
+          <a class="navbar-brand mb-0 h1" href="#">Bombeiros</a>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Página Inicial</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contato</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="d-lg-none">
+
+        <nav class="navbar navbar-light bg-light p-0">
+          <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNav">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">S.A. Bombeiros</a>
+          </div>
         </nav>
 
-        <div class="d-lg-none">
+        <div class="offcanvas offcanvas-start" id="offcanvasNav">
 
-            <nav class="navbar navbar-light bg-light p-0">
-                <div class="container">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                        data-bs-target="#offcanvasNav">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">S.A. Bombeiros</a>
-                </div>
-            </nav>
+          <div class="offcanvas-header">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Fechar"></button>
+          </div>
 
-            <div class="offcanvas offcanvas-start" id="offcanvasNav">
-
-                <div class="offcanvas-header">
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
-                        aria-label="Fechar"></button>
-                </div>
-
-                <div class="offcanvas-body">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Página Inicial</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Sobre</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contato</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Login</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Página Inicial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contato</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Login</a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </div>
     </header>
-</div>
-    <div class="tipodeoc">
-        <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                 DADOS DO PACIENTE
-                </button>
-              </h2>
-
-
-              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <div class="nome_paciente">
-                    <input type="name" class="input_text" placeholder="NOME COMPLETO DO PACIENTE" name="name" 
-                                    id="name">
-                </div>
-                <div class="idade_paciente">
-                    <input type="name" class="input_text" placeholder="IDADE DO PACIENTE" name="name" 
-                                    id="name">
-                </div>
-                <div class="cpf_paciente">
-                    <input type="name" class="input_text" placeholder="RG/CPF DO PACIENTE" name="name" 
-                    id="name">
-                </div>
-                <div class="local_ocorrencia">
-                    <input type="name" class="input_text" placeholder="LOCAL DA OCORRÊNCIA" name="name" 
-                                    id="name">
-                </div>
-                
-                </div>
-              </div>
+  </div>
+  <div class="tipodeoc">
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            DADOS DO PACIENTE
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div class="nome_paciente">
+              <input type="name" class="input_text" placeholder="NOME COMPLETO DO PACIENTE" name="name" id="name">
             </div>
-
-            <div class="accordion-item" >
-              <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" >
-                 TIPOS DE OCORRÊNCIA (PRÉ-HOSPITALAR)
-                </button>
-              </h2>
-              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <form style="display: flex;flex-direction: column; gap: 10px;" action="typeocorrenc">
-                    <div><input type="checkbox">
-                    <label for="">CAUSADO POR ANIMAIS</label></div>
-    
-    
-                    <div><input type="checkbox">
-                    <label for="">COM MEIO DE TRANSPORTE</label></div>
-    
-    
-                    <div><input type="checkbox">
-                    <label for="">DESMORONAMENTO/DESLIZAMENTO</label></div>
-    
-    
-                    <div><input type="checkbox">
-                    <label for="">EMERGÊNCIA MÉDICA</label></div>
-    
-    
-                    <div><input type="checkbox">
-                    <label for="">QUEDA DE ALTURA 2M</label></div>
-    
-    
-                    <div><input type="checkbox">
-                    <label for="">QUEDA NÍVEL &lt2M </label></div>
-    
-    
-                    <div><input type="checkbox">
-                    <label for="">QUEDA PRÓPRIA ALTURA</label></div>
-    
-    
-                    <div><input type="checkbox">
-                    <label for="">AFOGAMENTO</label></div>
-    
-    
-                    <div><input type="checkbox">
-                    <label for="">AGRESSÃO</label></div>
-    
-    
-                    <div><input type="checkbox">
-                    <label for="">ATROPELAMENTO</label></div>
-    
-    
-                    <div><input type="checkbox">
-                    <label for="">CHOQUE ELÉTRICO</label></div>
-    
-    
-    
-                    <div><input type="checkbox">
-                    <label for="">DESABAMENTO</label></div>
-    
-    
-                    <div><input type="checkbox">
-                    <label for="">ESPORTIVO</label></div>
-    
-    
-                    <div><input type="checkbox">
-                    <label for="">DOMÉSTICO</label></div>
-    
-    
-                    <div><input type="checkbox">
-                    <label for="">INTOXICAÇÃO</label></div>
-    
-    
-                    <div><input type="checkbox">
-                    <label for="">QUEDA BICICLETA</label></div>
-    
-    
-                    <div><input type="checkbox">
-                    <label for="">QUEDA MOTO</label></div>
-    
-    
-                    <div><input type="checkbox">
-                    <label for="">TRABALHO</label></div>
-    
-    
-                    <div><input type="checkbox">
-                    <label for="">TRANSFERÊNCIA</label></div>
-    
-    
-                    <div><input type="checkbox">
-                    <label for="">TENTATIVA DE HOMICIDIO</label></div>
-    
-                    <div><input type="checkbox">
-                    <label for="">Outro:</label>
-                    <input type="text"</div>
-                  </form>
-                </div>
-              </div>
+            <div class="idade_paciente">
+              <input type="name" class="input_text" placeholder="IDADE DO PACIENTE" name="name" id="name">
             </div>
-
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="border-top: 1px solid #dee2e6; border-radius: 0px;">
-                 SINAIS VITAIS
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It is hidden by default <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-              </div>
+            <div class="cpf_paciente">
+              <input type="name" class="input_text" placeholder="RG/CPF DO PACIENTE" name="name" id="name">
             </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  PROBLEMAS ENCONTRADOS SUSPEITOS
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>This is the second item's accordion body.</strong> It is hidden by default <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-              </div>
-            </div>
-
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNineteen" aria-expanded="false" aria-controls="collapseNineteen">
-                  AVALIAÇÃO DO PACIENTE (GLASGOW)
-                </button>
-              </h2>
-              <div id="collapseNineteen" class="accordion-collapse collapse" aria-labelledby="headingNineteen" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>This is the second item's accordion body.</strong> It is hidden by default <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-              </div>
-            </div>
-
-
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                  SINAIS E SINTOMAS
-                </button>
-              </h2>
-              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>This is the second item's accordion body.</strong> It is hidden by default <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-              </div>
-            </div>
-
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                  AVALIAÇÃO DO PACIENTE
-                </button>
-              </h2>
-              <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>This is the second item's accordion body.</strong> It is hidden by default <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-              </div>
-            </div>
-
-
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                  LOCALIZAÇÃO DOS TRAUMAS
-                </button>
-              </h2>
-              <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>This is the second item's accordion body.</strong> It is hidden by default <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-              </div>
-            </div>
-
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                  FORMA DE CONDUÇÃO
-                </button>
-              </h2>
-              <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>This is the second item's accordion body.</strong> It is hidden by default <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-              </div>
-            </div>
-
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-                  VITIMA ERA
-                </button>
-              </h2>
-              <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <form style="display: flex;flex-direction: column; gap: 10px;" action="vitima_era">
-                    <div><input type="checkbox">
-                    <label for="">CAUSADO POR ANIMAIS</label></div>
-    
-    
-                    <div><input type="checkbox">
-                    <label for="">COM MEIO DE TRANSPORTE</label></div>
-    
-    
-                    <div><input type="checkbox">
-                    <label for="">DESMORONAMENTO/DESLIZAMENTO</label></div>
-    
-    
-                    <div><input type="checkbox">
-                    <label for="">EMERGÊNCIA MÉDICA</label></div>
-    
-    
-                    <div><input type="checkbox">
-                    <label for="">QUEDA DE ALTURA 2M</label></div>
-    
-    
-                    <div><input type="checkbox">
-                    <label for="">QUEDA NÍVEL &lt2M </label></div>
-    
-    
-                    <div><input type="checkbox">
-                    <label for="">QUEDA PRÓPRIA ALTURA</label></div>
-    
-    
-                    <div><input type="checkbox">
-                    <label for="">AFOGAMENTO</label></div>
-    
-    
-                    <div><input type="checkbox">
-                    <label for="">AGRESSÃO</label></div>
-    
-    
-                    <div><input type="checkbox">
-                    <label for="">ATROPELAMENTO</label></div>
-    
-    
-                    <div><input type="checkbox">
-                    <label for="">CHOQUE ELÉTRICO</label></div>
-    
-    
-    
-                    <div><input type="checkbox">
-                    <label for="">DESABAMENTO</label></div>
-    
-    
-                    <div><input type="checkbox">
-                    <label for="">ESPORTIVO</label></div>
-    
-    
-                    <div><input type="checkbox">
-                    <label for="">DOMÉSTICO</label></div>
-    
-    
-                    <div><input type="checkbox">
-                    <label for="">INTOXICAÇÃO</label></div>
-    
-    
-                    <div><input type="checkbox">
-                    <label for="">QUEDA BICICLETA</label></div>
-    
-    
-                    <div><input type="checkbox">
-                    <label for="">QUEDA MOTO</label></div>
-    
-    
-                    <div><input type="checkbox">
-                    <label for="">TRABALHO</label></div>
-    
-    
-                    <div><input type="checkbox">
-                    <label for="">TRANSFERÊNCIA</label></div>
-    
-    
-                    <div><input type="checkbox">
-                    <label for="">TENTATIVA DE HOMICIDIO</label></div>
-    
-                    <div><input type="checkbox">
-                    <label for="">Outro:</label>
-                    <input type="text"</div>
-                  </form>
-                </div>
-            </div>
-
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
-                  DECISÃO TRANSPORTE
-                </button>
-              </h2>
-              <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>This is the second item's accordion body.</strong> It is hidden by default <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-              </div>
-            </div>
-
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
-                  OBJETOS RECOLHIDOS
-                </button>
-              </h2>
-              <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>This is the second item's accordion body.</strong> It is hidden by default <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-              </div>
-            </div>
-
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
-                  PROCEDIMENTOS EFETUADOS
-                </button>
-              </h2>
-              <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>This is the second item's accordion body.</strong> It is hidden by default <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-              </div>
-            </div>
-
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
-                 MATERIAIS UTILIZADOS DESCARTÁVEIS
-                </button>
-              </h2>
-              <div id="collapseThirteen" class="accordion-collapse collapse" aria-labelledby="headingThirteen" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>This is the second item's accordion body.</strong> It is hidden by default <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-              </div>
-            </div>
-
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
-                  MATERIAIS UTILIZADOS DEIXADO NO HOSPITAL
-                </button>
-              </h2>
-              <div id="collapseFourteen" class="accordion-collapse collapse" aria-labelledby="headingFourteen" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>This is the second item's accordion body.</strong> It is hidden by default <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-              </div>
-            </div>
-
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
-                  TERMO DE RECUSA DE ATENDIMENTO E/OU TRANSPORTE
-                </button>
-              </h2>
-              <div id="collapseFifteen" class="accordion-collapse collapse" aria-labelledby="headingFifteen" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>This is the second item's accordion body.</strong> It is hidden by default <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-              </div>
-            </div>
-
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">
-                  ANANMESE DA EMERGÊNCIA MÉDICO
-                </button>
-              </h2>
-              <div id="collapseSixteen" class="accordion-collapse collapse" aria-labelledby="headingSixteen" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>This is the second item's accordion body.</strong> It is hidden by default <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-              </div>
-            </div>
-
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeventeen" aria-expanded="false" aria-controls="collapseSeventeen">
-                  ANANMESE GESTACIONAL
-                </button>
-              </h2>
-              <div id="collapseSeventeen" class="accordion-collapse collapse" aria-labelledby="headingSeventeen" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>This is the second item's accordion body.</strong> It is hidden by default <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-              </div>
-            </div>
-
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEighteen" aria-expanded="false" aria-controls="collapseEighteen">
-                  AVALIAÇÃO DA CINEMÁTICA
-                </button>
-              </h2>
-              <div id="collapseEighteen" class="accordion-collapse collapse" aria-labelledby="headingEighteen" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>This is the second item's accordion body.</strong> It is hidden by default <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-              </div>
-            </div>
-
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNineteen" aria-expanded="false" aria-controls="collapseNineteen">
-                  RESPONSÁVEL PELO PREENCHIMENTO
-                </button>
-              </h2>
-              <div id="collapseNineteen" class="accordion-collapse collapse" aria-labelledby="headingNineteen" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>This is the second item's accordion body.</strong> It is hidden by default <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-              </div>
+            <div class="local_ocorrencia">
+              <input type="name" class="input_text" placeholder="LOCAL DA OCORRÊNCIA" name="name" id="name">
             </div>
 
           </div>
-        
-        
-        
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            TIPOS DE OCORRÊNCIA (PRÉ-HOSPITALAR)
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <form style="display: flex;flex-direction: column; gap: 10px;" action="typeocorrenc">
+              <div><input type="checkbox">
+                <label for="">CAUSADO POR ANIMAIS</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">COM MEIO DE TRANSPORTE</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">DESMORONAMENTO/DESLIZAMENTO</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">EMERGÊNCIA MÉDICA</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">QUEDA DE ALTURA 2M</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">QUEDA NÍVEL &lt2M </label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">QUEDA PRÓPRIA ALTURA</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">AFOGAMENTO</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">AGRESSÃO</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">ATROPELAMENTO</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">CHOQUE ELÉTRICO</label>
+              </div>
+
+
+
+              <div><input type="checkbox">
+                <label for="">DESABAMENTO</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">ESPORTIVO</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">DOMÉSTICO</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">INTOXICAÇÃO</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">QUEDA BICICLETA</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">QUEDA MOTO</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">TRABALHO</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">TRANSFERÊNCIA</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">TENTATIVA DE HOMICIDIO</label>
+              </div>
+
+              <div><input type="checkbox">
+                <label for="">Outro:</label>
+                <input type="text">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"
+            style="border-top: 1px solid #dee2e6; border-radius: 0px;">
+            SINAIS VITAIS
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the second item's accordion body.</strong> It is hidden by default
+            <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            PROBLEMAS ENCONTRADOS SUSPEITOS
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the second item's accordion body.</strong> It is hidden by default
+            <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseNineteen" aria-expanded="false" aria-controls="collapseNineteen">
+            AVALIAÇÃO DO PACIENTE (GLASGOW)
+          </button>
+        </h2>
+        <div id="collapseNineteen" class="accordion-collapse collapse" aria-labelledby="headingNineteen"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the second item's accordion body.</strong> It is hidden by default
+            <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            SINAIS E SINTOMAS
+          </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <form style="display: flex;flex-direction: column; gap: 10px;" action="typeocorrenc">
+              <div><input type="checkbox">
+                <label for="">ABDOME SENSÍVEL OU RÍGIDO</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">AFUDANMENTO DE CRÂNIO</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">AGITAÇÃO</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">AMNÉSIA</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">ANGINA DE PEITO</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">APINÉIA</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">BRADICARDIA</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">BRADIPNÉIA</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">BRONCO-ASPIRADO</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">CEFALÉIA</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">CIANOSE</label>
+              </div>
+
+
+
+              <div><input type="checkbox">
+                <label for="">CONVULSÃO</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">DECORTICAÇÃO</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">DEFORMIDADE</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">DESCEREBRAÇÃO</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">DESMAIO</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">DESVIO DE TRAQUÉIA</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">DESPNÉIA</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">DOR LOCAL</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">EDEMA</label>
+              </div>
+
+              <div><input type="checkbox">
+                <label for="">ENFISEMA SUBCUTÂNEO</label>
+              </div>
+
+              <div><input type="checkbox">
+                <label for="">ÊSTASE DE JUGULAR</label>
+              </div>
+
+              <div><input type="checkbox">
+                <label for="">FACE PÁLIDA</label>
+              </div>
+
+              <div><input type="checkbox">
+                <label for="">TENTATIVA DE HOMICIDIO</label>
+              </div>
+
+              <div><input type="checkbox">
+                <label for="">TENTATIVA DE HOMICIDIO</label>
+              </div>
+
+              <div><input type="checkbox">
+                <label for="">TENTATIVA DE HOMICIDIO</label>
+              </div>
+
+              <div><input type="checkbox">
+                <label for="">TENTATIVA DE HOMICIDIO</label>
+              </div>
+
+              <div><input type="checkbox">
+                <label for="">TENTATIVA DE HOMICIDIO</label>
+              </div>
+
+              <div><input type="checkbox">
+                <label for="">TENTATIVA DE HOMICIDIO</label>
+              </div>
+
+              <div><input type="checkbox">
+                <label for="">TENTATIVA DE HOMICIDIO</label>
+              </div>
+
+              <div><input type="checkbox">
+                <label for="">TENTATIVA DE HOMICIDIO</label>
+              </div>
+
+              <div><input type="checkbox">
+                <label for="">TENTATIVA DE HOMICIDIO</label>
+              </div>
+
+              <div><input type="checkbox">
+                <label for="">TENTATIVA DE HOMICIDIO</label>
+              </div>
+
+              <div><input type="checkbox">
+                <label for="">TENTATIVA DE HOMICIDIO</label>
+              </div>
+
+              <div><input type="checkbox">
+                <label for="">TENTATIVA DE HOMICIDIO</label>
+              </div>
+
+              <div><input type="checkbox">
+                <label for="">TENTATIVA DE HOMICIDIO</label>
+              </div>
+
+              <div><input type="checkbox">
+                <label for="">TENTATIVA DE HOMICIDIO</label>
+              </div>
+
+              <div><input type="checkbox">
+                <label for="">TENTATIVA DE HOMICIDIO</label>
+              </div>
+
+              <div><input type="checkbox">
+                <label for="">TENTATIVA DE HOMICIDIO</label>
+              </div>
+
+              <div><input type="checkbox">
+                <label for="">TENTATIVA DE HOMICIDIO</label>
+              </div>
+
+              <div><input type="checkbox">
+                <label for="">TENTATIVA DE HOMICIDIO</label>
+              </div>
+
+              <div><input type="checkbox">
+                <label for="">TENTATIVA DE HOMICIDIO</label>
+              </div>
+
+              <div><input type="checkbox">
+                <label for="">TENTATIVA DE HOMICIDIO</label>
+              </div>
+
+              <div><input type="checkbox">
+                <label for="">TENTATIVA DE HOMICIDIO</label>
+              </div>
+
+              <div><input type="checkbox">
+                <label for="">Outro:</label>
+                <input type="text">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+            AVALIAÇÃO DO PACIENTE
+          </button>
+        </h2>
+        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the second item's accordion body.</strong> It is hidden by default
+            <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+            LOCALIZAÇÃO DOS TRAUMAS
+          </button>
+        </h2>
+        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the second item's accordion body.</strong> It is hidden by default
+            <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+            FORMA DE CONDUÇÃO
+          </button>
+        </h2>
+        <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the second item's accordion body.</strong> It is hidden by default
+            <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+            VITIMA ERA
+          </button>
+        </h2>
+        <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <form style="display: flex;flex-direction: column; gap: 10px;" action="vitima_era">
+              <div><input type="checkbox">
+                <label for="">CAUSADO POR ANIMAIS</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">COM MEIO DE TRANSPORTE</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">DESMORONAMENTO/DESLIZAMENTO</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">EMERGÊNCIA MÉDICA</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">QUEDA DE ALTURA 2M</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">QUEDA NÍVEL &lt2M </label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">QUEDA PRÓPRIA ALTURA</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">AFOGAMENTO</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">AGRESSÃO</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">ATROPELAMENTO</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">CHOQUE ELÉTRICO</label>
+              </div>
+
+
+
+              <div><input type="checkbox">
+                <label for="">DESABAMENTO</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">ESPORTIVO</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">DOMÉSTICO</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">INTOXICAÇÃO</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">QUEDA BICICLETA</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">QUEDA MOTO</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">TRABALHO</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">TRANSFERÊNCIA</label>
+              </div>
+
+
+              <div><input type="checkbox">
+                <label for="">TENTATIVA DE HOMICIDIO</label>
+              </div>
+
+              <div><input type="checkbox">
+                <label for="">Outro:</label>
+                <input type="text" </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+              DECISÃO TRANSPORTE
+            </button>
+          </h2>
+          <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+              OBJETOS RECOLHIDOS
+            </button>
+          </h2>
+          <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+              PROCEDIMENTOS EFETUADOS
+            </button>
+          </h2>
+          <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
+              MATERIAIS UTILIZADOS DESCARTÁVEIS
+            </button>
+          </h2>
+          <div id="collapseThirteen" class="accordion-collapse collapse" aria-labelledby="headingThirteen"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
+              MATERIAIS UTILIZADOS DEIXADO NO HOSPITAL
+            </button>
+          </h2>
+          <div id="collapseFourteen" class="accordion-collapse collapse" aria-labelledby="headingFourteen"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
+              TERMO DE RECUSA DE ATENDIMENTO E/OU TRANSPORTE
+            </button>
+          </h2>
+          <div id="collapseFifteen" class="accordion-collapse collapse" aria-labelledby="headingFifteen"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">
+              ANANMESE DA EMERGÊNCIA MÉDICO
+            </button>
+          </h2>
+          <div id="collapseSixteen" class="accordion-collapse collapse" aria-labelledby="headingSixteen"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseSeventeen" aria-expanded="false" aria-controls="collapseSeventeen">
+              ANANMESE GESTACIONAL
+            </button>
+          </h2>
+          <div id="collapseSeventeen" class="accordion-collapse collapse" aria-labelledby="headingSeventeen"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseEighteen" aria-expanded="false" aria-controls="collapseEighteen">
+              AVALIAÇÃO DA CINEMÁTICA
+            </button>
+          </h2>
+          <div id="collapseEighteen" class="accordion-collapse collapse" aria-labelledby="headingEighteen"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseNineteen" aria-expanded="false" aria-controls="collapseNineteen">
+              RESPONSÁVEL PELO PREENCHIMENTO
+            </button>
+          </h2>
+          <div id="collapseNineteen" class="accordion-collapse collapse" aria-labelledby="headingNineteen"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
     </div>
-       
 
 
 
-    
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
