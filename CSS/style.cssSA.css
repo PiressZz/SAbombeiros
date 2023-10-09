@@ -893,3 +893,11 @@ p{
     overflow-anchor: none;
     transition: var(--bs-accordion-transition);
 }
+
+.avaliacao_cinematica{
+    display: flex;
+    gap: 70px;
+}
+
+
+
