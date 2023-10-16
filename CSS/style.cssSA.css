@@ -899,5 +899,80 @@ p{
     gap: 70px;
 }
 
+.area_opcoes{
+    width: 600px;
+    height: 300px;
+    background-color: aqua;
+    border: 1px solid black;
+    display: flex;
+}
+
+.metade1{
+    width: 50%;
+    height: 100%;
+    background-color: #F00;
+    border: 1px solid black;
+    flex-direction: column;
+}
+.opcao1{
+    width: 100%;
+    height: 25%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+.opcao1>p{
+        font-size: 18px;
+    }
+.area_quadrado_opcao{
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+    flex-direction: column;
+}
+.div_area_quadrado_opcao{
+    width: 100%;
+    height: 50%;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.metade2{
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.sla>label>p{
+    font-size: 9px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+
+.bruh{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bruh>label>p{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.primeira_area{
+    display: flex;
+}
+.primeira_area>label>p{
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    
+}
+
 
 
