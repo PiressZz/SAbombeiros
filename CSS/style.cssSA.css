@@ -898,6 +898,25 @@ p{
     display: flex;
     gap: 70px;
 }
-
+.cianosetudo{
+    display: flex;
+    
+}
+.cianosefilho{
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    margin-left: 5px;
+}
+.midriase{
+    display: flex;
+}
+.midriasefilhos{
+    display: flex;
+    flex-direction: column;
+}
+.reagentes{
+    margin-left: 5px;
+}
 
 
