@@ -994,4 +994,9 @@ p{
     
 }
 
+.caixa_texto>input>label>{
+    width: 20%;
+    height: 20%;
+}
+
 
