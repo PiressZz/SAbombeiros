@@ -1033,7 +1033,56 @@ p{
 }
 
 .sinais_vitais{
+    width: 90vw;
+    height: 300px;
+    background-color: #F00;
+    flex-direction: column;
+}
+
+.div_container{
+    width: 90vw;
+    height: 600px;
+    background-color: #F00;
+    flex-direction: column;
     
 }
 
+.div_opcoes_paci{
+    width: 100%;
+    height: fit-content;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
+.quadrado_paci{
+    width: 180px;
+    height: 180px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.quadrado_paci>img{
+    width: 90%;
+    height: 90%;
+}
+
+.pressao_arterial{
+    display: flex;
+    justify-content: space-around;
+}
+
+.pulso{
+    display: flex;
+    justify-content: space-around;
+}
+
+.respiracao{
+    display: flex;
+    justify-content: space-around;
+}
