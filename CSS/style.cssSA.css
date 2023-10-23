@@ -1086,3 +1086,21 @@ p{
     display: flex;
     justify-content: space-around;
 }
+
+
+
+
+.MateriaisDes{
+    display: flex;
+    gap: 1vw;
+}
+.quantidadeinput{
+    width: 10vw;
+    height: 22px;
+}
+.quantidadediv{
+    /* background-color: #F00; */
+    width: 40vw;
+    display: flex;
+    justify-content: end;
+}
