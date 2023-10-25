@@ -95,16 +95,16 @@
                                         name="name" id="name">
                                 </div>
                                 <div class="idade_paciente">
-                                    <input type="name" class="input_paciente" placeholder="IDADE DO PACIENTE" name="name"
-                                        id="name">
+                                    <input type="name" class="input_paciente" placeholder="IDADE DO PACIENTE"
+                                        name="name" id="name">
                                 </div>
                                 <div class="cpf_paciente">
-                                    <input type="name" class="input_paciente" placeholder="RG/CPF DO PACIENTE" name="name"
-                                        id="name">
+                                    <input type="name" class="input_paciente" placeholder="RG/CPF DO PACIENTE"
+                                        name="name" id="name">
                                 </div>
                                 <div class="local_ocorrencia">
-                                    <input type="name" class="input_paciente" placeholder="LOCAL DA OCORRÊNCIA" name="name"
-                                        id="name">
+                                    <input type="name" class="input_paciente" placeholder="LOCAL DA OCORRÊNCIA"
+                                        name="name" id="name">
                                 </div>
                             </div>
                         </div>
@@ -245,27 +245,68 @@
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                           
+
                             <div class="sinais_vitais">
-                                <div class="pressao_arterial"><label for=""><p>PRESSÃO ARTERIAL</p></label>
-                                <input type="text"><P>X</P></label>
-                                <input type="text">MMHR
-                            </div>
+                                <div class="pressao_arterial"><label for="">
+                                        <p>PRESSÃO ARTERIAL</p>
+                                    </label>
+                                    <input type="text">
+                                    <P>X</P></label>
+                                    <input type="text">MMHR
+                                </div>
+                                <br>
+                                <div class="pulso">
+                                    <div class="pressao_arterial"><label for="">
+                                            <p>PULSO</p>
+                                        </label>
+                                        <input type="text">
+                                        <P>B.C.P.M/RESPIRAÇÃO</P></label>
+                                        <input type="text">M.R.M
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="respiracao"><label for="">
+                                        <p>RESPIRAÇÃO</p>
+                                    </label>
+                                    <input type="text">
+                                    <P>%</P></label>
 
-                            <div class="pulso"><div class="pressao_arterial"><label for=""><p>PULSO</p></label>
-                                <input type="text"><P>B.C.P.M/RESPIRAÇÃO</P></label>
-                                <input type="text">M.R.M
-                            </div>
-                            </div>
+                                </div>
+                                <br>
+                                <div class="temperatura"><label for="">
+                                    <p>TEMPERATURA</p>
+                                </label>
+                                <input type="text">
+                                <P>C°</P></label>
+                                <div class="avaliacao_cinematica">
+                                    <label for="sexo_f">ANORMAL</label>
+                                    <input type="radio" id="sexo_f" name="torcido" value="F">
+                                    <br>
+                                    <label for="sexo_m">NORMAL</label>
+                                    <input type="radio" id="sexo_m" name="torcido" value="M">
+                                </div>
+                                <br>
 
-                        <div class="respiracao"><label for=""><p>RESPIRAÇÃO</p></label>
-                            <input type="text"><P>%</P></label>
-                           
+                            </div>
+                            <div class="temperatura"><label for="">
+                                <p>PERFUSÃO >2</p>
+                            </label>
+                            <input type="checkbox">
+                           </label>
+
+                           <label for="">
+                            <p>PERFUSÃO <2 </p>
+                        </label>
+                        <input type="checkbox">
+                       </label>
+
+                            
+
                         </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                        
+
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingThree">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -309,7 +350,7 @@
                                                         </label>
                                                     </div>
                                                 </div>
-                                                
+
                                             </div>
                                         </div>
                                         <div class="opcao1">
@@ -335,7 +376,7 @@
                                                         </label>
                                                     </div>
                                                 </div>
-                                                
+
                                             </div>
                                         </div>
                                         <div class="opcao1">
@@ -350,7 +391,7 @@
                                     <div class="metade2">
                                         <div class="div_metade2_1">
                                             <div class="metade1">
-                                                
+
                                                 <div class="bruh"><input type="checkbox">
                                                     <label for="">
                                                         <p>OBSTÉTRICO</p>
@@ -381,7 +422,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            
+
                                         </div>
 
 
@@ -406,1252 +447,1389 @@
                                                     </div>
                                                 </div>
 
-                                            <div class="div_area_opcoes2">
-                                                <div class="sla"><input type="checkbox">
-                                                    <label for="">
-                                                        <p>CLÍNICO</p>
-                                                    </label>
+                                                <div class="div_area_opcoes2">
+                                                    <div class="sla"><input type="checkbox">
+                                                        <label for="">
+                                                            <p>CLÍNICO</p>
+                                                        </label>
+                                                    </div>
+                                                </div>
+
+                                                <div class="div_area_opcoes2">
+                                                    <div class="sla"><input type="checkbox">
+                                                        <label for="">
+                                                            <p>EMERGÊNCIA</p>
+                                                        </label>
+                                                    </div>
+                                                </div>
+
+                                                <div class="div_area_opcoes2">
+                                                    <div class="sla"><input type="checkbox">
+                                                        <label for="">
+                                                            <p>PÓS-TRAUMA</p>
+                                                        </label>
+                                                    </div>
+                                                </div>
+
+                                                <div class="div_area_opcoes2">
+                                                    <div class="sla"><input type="checkbox">
+                                                        <label for="">
+                                                            <p>SAMU</p>
+                                                        </label>
+                                                    </div>
+                                                </div>
+
+                                                <div class="div_area_opcoes2">
+                                                    <div class="sla"><input type="checkbox">
+                                                        <label for="">
+                                                            <p>HEMOR.EXCESSIVA</p>
+                                                        </label>
+                                                    </div>
+                                                </div>
+
+                                                <div class="div_area_opcoes2">
+                                                    <div class="sla"><input type="checkbox">
+                                                        <label for="">
+                                                            <p>SEM REMOÇÃO</p>
+                                                        </label>
+                                                    </div>
                                                 </div>
                                             </div>
 
-                                            <div class="div_area_opcoes2">
-                                                <div class="sla"><input type="checkbox">
-                                                    <label for="">
-                                                        <p>EMERGÊNCIA</p>
-                                                    </label>
-                                                </div>
-                                            </div>
 
-                                            <div class="div_area_opcoes2">
-                                                <div class="sla"><input type="checkbox">
-                                                    <label for="">
-                                                        <p>PÓS-TRAUMA</p>
-                                                    </label>
-                                                </div>
-                                            </div>
-
-                                            <div class="div_area_opcoes2">
-                                                <div class="sla"><input type="checkbox">
-                                                    <label for="">
-                                                        <p>SAMU</p>
-                                                    </label>
-                                                </div>
-                                            </div>
-
-                                            <div class="div_area_opcoes2">
-                                                <div class="sla"><input type="checkbox">
-                                                    <label for="">
-                                                        <p>HEMOR.EXCESSIVA</p>
-                                                    </label>
-                                                </div>
-                                            </div>
-
-                                            <div class="div_area_opcoes2">
-                                                <div class="sla"><input type="checkbox">
-                                                    <label for="">
-                                                        <p>SEM REMOÇÃO</p>
-                                                    </label>
-                                                </div>
-                                            </div>
-                                            </div>
-                                            
-                                            
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseNineteen" aria-expanded="false"
+                                aria-controls="collapseNineteen">
+                                AVALIAÇÃO DO PACIENTE (GLASGOW)
+                            </button>
+                        </h2>
+                        <div id="collapseNineteen" class="accordion-collapse collapse" aria-labelledby="headingNineteen"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the second item's accordion body.</strong> It is hidden by default
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                SINAIS E SINTOMAS
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <form style="display: flex;flex-direction: column; gap: 10px;" action="typeocorrenc">
+                                    <div><input type="checkbox">
+                                        <label for="">ABDOME SENSÍVEL OU RÍGIDO</label>
+                                    </div>
+
+
+                                    <div><input type="checkbox">
+                                        <label for="">AFUDANMENTO DE CRÂNIO</label>
+                                    </div>
+
+
+                                    <div><input type="checkbox">
+                                        <label for="">AGITAÇÃO</label>
+                                    </div>
+
+
+                                    <div><input type="checkbox">
+                                        <label for="">AMNÉSIA</label>
+                                    </div>
+
+
+                                    <div><input type="checkbox">
+                                        <label for="">ANGINA DE PEITO</label>
+                                    </div>
+
+
+                                    <div><input type="checkbox">
+                                        <label for="">APINÉIA</label>
+                                    </div>
+
+
+                                    <div><input type="checkbox">
+                                        <label for="">BRADICARDIA</label>
+                                    </div>
+
+
+                                    <div><input type="checkbox">
+                                        <label for="">BRADIPNÉIA</label>
+                                    </div>
+
+
+                                    <div><input type="checkbox">
+                                        <label for="">BRONCO-ASPIRADO</label>
+                                    </div>
+
+
+                                    <div><input type="checkbox">
+                                        <label for="">CEFALÉIA</label>
+                                    </div>
+
+                                    <div class="cianosetudo">
+                                        <div><input type="checkbox">
+                                            <label for="">CIANOSE</label>
+                                        </div>
+                                        <div class="cianosefilho">
+                                            <div>
+                                                <input type="checkbox">
+                                                <label for="">LÁBIOS</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox">
+                                                <label for="">EXTREMIDADE</label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div><input type="checkbox">
+                                        <label for="">CONVULSÃO</label>
+                                    </div>
+
+
+                                    <div><input type="checkbox">
+                                        <label for="">DECORTICAÇÃO</label>
+                                    </div>
+
+
+                                    <div><input type="checkbox">
+                                        <label for="">DEFORMIDADE</label>
+                                    </div>
+
+
+                                    <div><input type="checkbox">
+                                        <label for="">DESCEREBRAÇÃO</label>
+                                    </div>
+
+
+                                    <div><input type="checkbox">
+                                        <label for="">DESMAIO</label>
+                                    </div>
+
+
+                                    <div><input type="checkbox">
+                                        <label for="">DESVIO DE TRAQUÉIA</label>
+                                    </div>
+
+
+                                    <div><input type="checkbox">
+                                        <label for="">DESPNÉIA</label>
+                                    </div>
+
+
+                                    <div><input type="checkbox">
+                                        <label for="">DOR LOCAL</label>
+                                    </div>
+
+
+                                    <div class="cianosetudo">
+                                        <div><input type="checkbox">
+                                            <label for="">EDEMA</label>
+                                        </div>
+                                        <div class="cianosefilho">
+                                            <div>
+                                                <input type="checkbox">
+                                                <label for="">GENERALIZADO</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox">
+                                                <label for="">LOCALIZADO</label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div><input type="checkbox">
+                                        <label for="">ENFISEMA SUBCUTÂNEO</label>
+                                    </div>
+
+                                    <div><input type="checkbox">
+                                        <label for="">ÊSTASE DE JUGULAR</label>
+                                    </div>
+
+                                    <div><input type="checkbox">
+                                        <label for="">FACE PÁLIDA</label>
+                                    </div>
+
+                                    <div class="cianosetudo">
+                                        <div><input type="checkbox">
+                                            <label for="">HEMORRAGIA</label>
+                                        </div>
+                                        <div class="cianosefilho">
+                                            <div>
+                                                <input type="checkbox">
+                                                <label for="">INTERNA</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox">
+                                                <label for="">EXTERNA</label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div><input type="checkbox">
+                                        <label for="">HIPERTENSÃO</label>
+                                    </div>
+
+                                    <div><input type="checkbox">
+                                        <label for="">HIPOTENSÃO</label>
+                                    </div>
+
+                                    <div><input type="checkbox">
+                                        <label for="">NÁUSEAS E VÔMITOS</label>
+                                    </div>
+
+                                    <div><input type="checkbox">
+                                        <label for="">NASORAGIA</label>
+                                    </div>
+
+                                    <div><input type="checkbox">
+                                        <label for="">ÓBITO</label>
+                                    </div>
+
+                                    <div><input type="checkbox">
+                                        <label for="">OTORRÉIA</label>
+                                    </div>
+
+                                    <div><input type="checkbox">
+                                        <label for="">OTORRAGIA</label>
+                                    </div>
+
+                                    <div><input type="checkbox">
+                                        <label for="">O.V.A.C.E</label>
+                                    </div>
+
+                                    <div class="cianosetudo">
+                                        <div><input type="checkbox">
+                                            <label for="">PARADA</label>
+                                        </div>
+                                        <div class="cianosefilho">
+                                            <div>
+                                                <input type="checkbox">
+                                                <label for="">CARDÍACA</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox">
+                                                <label for="">RESPIRATÓRIA</label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div><input type="checkbox">
+                                        <label for="">PRIAPRISMO</label>
+                                    </div>
+
+                                    <div><input type="checkbox">
+                                        <label for="">PRURIDO NA PELE</label>
+                                    </div>
+
+                                    <div class="cianosetudo">
+                                        <div><input type="checkbox">
+                                            <label for="">PUPILAS</label>
+                                        </div>
+                                        <div class="cianosefilho">
+                                            <div>
+                                                <input type="checkbox">
+                                                <label for="">ANISOCORIA</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox">
+                                                <label for="">ISOCORIA</label>
+                                            </div>
+                                            <div class="midriase">
+                                                <div class="midriasefilhos">
+                                                    <div>
+                                                        <input type="checkbox">
+                                                        <label for="">MIDRIASE</label>
+                                                    </div>
+                                                    <div>
+                                                        <input type="checkbox">
+                                                        <label for="">MIOSE</label>
+                                                    </div>
+                                                </div>
+                                                <div class="reagentes">
+                                                    <div>
+                                                        <input type="checkbox">
+                                                        <label for="">REAGENTE</label>
+                                                    </div>
+                                                    <div>
+                                                        <input type="checkbox">
+                                                        <label for="">NÃO REAGENTE</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div><input type="checkbox">
+                                        <label for="">SEDE</label>
+                                    </div>
+
+                                    <div><input type="checkbox">
+                                        <label for="">SINAL DE BATTLE</label>
+                                    </div>
+
+                                    <div><input type="checkbox">
+                                        <label for="">SINAL DE GUAXININ</label>
+                                    </div>
+
+                                    <div><input type="checkbox">
+                                        <label for="">SUDORESE</label>
+                                    </div>
+
+                                    <div><input type="checkbox">
+                                        <label for="">TAQUIPNÉIA</label>
+                                    </div>
+
+                                    <div><input type="checkbox">
+                                        <label for="">TAQUICARDIA</label>
+                                    </div>
+
+                                    <div><input type="checkbox">
+                                        <label for="">TONTURA</label>
+                                    </div>
+
+                                    <div><input type="checkbox">
+                                        <label for="">Outro:</label>
+                                        <input type="text">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                AVALIAÇÃO DO PACIENTE
+                            </button>
+                        </h2>
+                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the second item's accordion body.</strong> It is hidden by default
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                LOCALIZAÇÃO DOS TRAUMAS
+                            </button>
+                        </h2>
+                        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+
+                                <div><input type="checkbox">
+                                    <label for="">ASPIRAÇÃO </label>
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">AVALIAÇÃO INICIAL</label>
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">AVALIAÇÃO DIRIGIDA</label>
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">CHAVE DE RAUTEK</label>
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">CÂNULA DE GUEDEL </label>
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">DESOBSTRUÇÃO DE V.A</label>
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">EMPREGO DO D.E.A</label>
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">GERENCIAMENTO DE RISCOS</label>
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">LIMPEZA DE FERIMENTO</label>
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">CURATIVOS</label>
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">COMPRESSIVOS</label>
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">ENCRAVAMENTO</label>
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">OCULAR</label>
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">QUEIMADURA</label>
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">SIMPLES</label>
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">3 PONTAS</label>
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">IMOBILIZAÇÕES</label>
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">MEMBRO INF. DIREITO</label>
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">MEMBRO INF. ESQUERDO</label>
+                                </div>
+
+                                <div><input type="checkbox">
+                                    <label for="">MEMBRO SUPERIOR DIREITO </label>
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">MEMBRO SUPERIOR ESQUERDO</label>
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">QUADRIL</label>
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">CERVICAL</label>
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">MACA SOBRE RODAS </label>
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">MACA RÍGIDA</label>
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">PONTE</label>
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">RETIRADO CAPACETE</label>
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">R.C.P</label>
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">ROLAMENTO 90°</label>
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">ROLAMENTO 180°</label>
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">TOMADA DECISÃO</label>
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">TRATADO CHOQUE</label>
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">USO DE CÂNULA</label>
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">USO COLAR TAM:</label>
+                                    <input type="text">
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">USO KED</label>
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">USO TTF</label>
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">VENTILAÇÃO SUPORTE</label>
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">OXIGENIOTERAPIA</label>
+                                    <input type="text"> LPM
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">REANIMADOR</label>
+                                    <input type="text"> LPM
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">CELESC</label>
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">POLICIA </label>
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">CIVIL(PEQUENO)</label>
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">MILITAR (PEQUENO)</label>
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">PRE(PEQUENO)</label>
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">PRF(PEQUENO) </label>
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">SAMU</label>
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">USA(PEQUENO)</label>
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">USB(PEQUENO)</label>
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">CIT</label>
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">OUTRO:</label>
+                                    <input type="text">
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                FORMA DE CONDUÇÃO
+                            </button>
+                        </h2>
+                        <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+
+                                <div><input type="checkbox">
+                                    <label for="">DEITADA</label>
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">SEMI-DEITADA</label>
+                                </div>
+
+
+                                <div><input type="checkbox">
+                                    <label for="">SENTADA</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                VITIMA ERA
+                            </button>
+                        </h2>
+                        <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <form style="display: flex;flex-direction: column; gap: 10px;" action="vitima_era">
+                                    <div><input type="checkbox">
+                                        <label for="">CICLISTA</label>
+                                    </div>
+
+
+                                    <div><input type="checkbox">
+                                        <label for="">CONDUTOR DE CARRO</label>
+                                    </div>
+
+
+                                    <div><input type="checkbox">
+                                        <label for="">CONDUTOR MOTO</label>
+                                    </div>
+
+
+                                    <div><input type="checkbox">
+                                        <label for="">PASSAG.BANCO.FRENTE</label>
+                                    </div>
+
+
+                                    <div><input type="checkbox">
+                                        <label for="">PASSAG.BANCO.TRÁS</label>
+                                    </div>
+
+
+                                    <div><input type="checkbox">
+                                        <label for="">PASSAG.MOTO</label>
+                                    </div>
+
+
+                                    <div><input type="checkbox">
+                                        <label for="">CLÍNICO</label>
+                                    </div>
+
+
+                                    <div><input type="checkbox">
+                                        <label for="">GESTANTE</label>
+                                    </div>
+
+
+                                    <div><input type="checkbox">
+                                        <label for="">TRAUMA</label>
+                                    </div>
+
+
+                                    <div><input type="checkbox">
+                                        <label for="">PEDESTRE</label>
+                                    </div>
+
+
+                                    <div><input type="checkbox">
+                                        <label for="">Outro:</label>
+                                        <input type="text">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                    DECISÃO TRANSPORTE
+                                </button>
+                            </h2>
+                            <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+
+                                    <div class="div_container">
+                                        <div class="div_opcoes_paci">
+                                            <div class="quadrado_paci">
+                                                <img src="../IMAGENS/situação_paciente1.png" alt="">
+                                                <input type="checkbox" name="" id="">
+                                            </div>
+                                            <div class="quadrado_paci">
+                                                <img src="../IMAGENS/situação_paciente2.png" alt="">
+                                                <input type="checkbox" name="" id="">
+                                            </div>
+                                            <div class="quadrado_paci">
+                                                <img src="../IMAGENS/situação_paciente3.png" alt="">
+                                                <input type="checkbox" name="" id="">
+                                            </div>
+                                            <div class="quadrado_paci">
+                                                <img src="../IMAGENS/situação_paciente4.png" alt="">
+                                                <input type="checkbox" name="" id="">
+                                            </div>
+                                        </div>
+<br>
+                                        <p>EQUIPE DE ATENDIMENTO</p>
+
+                                        <div class="um">
+                                            <label for="">M:</label>
+                                            <input type="text">
+                                        </div>
+<br>
+                                        <div class="um">
+                                            <label for="">S1:</label>
+                                            <input type="text">
+                                        </div>
+<br>
+                                        <div class="um">
+                                            <label for="">S2:</label>
+                                            <input type="text">
+                                        </div>
+<br>
+                                        <div class="um">
+                                            <label for="">S3:</label>
+                                            <input type="text">
+                                        </div>
+<br>
+                                        <div class="um">
+                                            <label for="">DEMANDANTE:</label>
+                                            <input type="text">
+                                        </div>
+<br>
+                                        <div class="um">
+                                            <label for="">EQUIPE:</label>
+                                            <input type="text">
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseEleven" aria-expanded="false"
+                                    aria-controls="collapseEleven">
+                                    OBJETOS RECOLHIDOS
+                                </button>
+                            </h2>
+                            <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+
+                                    <div class="mb-3">
+                                        <label for="formGroupExampleInput" class="form-label"></label>
+                                        <input type="text" class="form-control" id="formGroupExampleInput"
+                                            placeholder="DIGITE AQUI">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwelve" aria-expanded="false"
+                                    aria-controls="collapseTwelve">
+                                    PROCEDIMENTOS EFETUADOS
+                                </button>
+                            </h2>
+                            <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by
+                                    default
+                                    <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThirteen" aria-expanded="false"
+                                    aria-controls="collapseThirteen">
+                                    MATERIAIS UTILIZADOS DESCARTÁVEIS
+                                </button>
+                            </h2>
+                            <div id="collapseThirteen" class="accordion-collapse collapse"
+                                aria-labelledby="headingThirteen" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <form style="display: flex;flex-direction: column; gap: 40px;" action="vitima_era">
+                                        
+                                        <div class="MateriaisDes">
+                                            <div>
+                                            <input type="checkbox">
+                                            <label for="">ATADURAS</label>
+                                        </div>
+                                            <div>
+                                                <div>
+                                                    <input type="checkbox">
+                                                    <label for="">8</label>
+                                                </div>
+                                                <div>
+                                                    <input type="checkbox">
+                                                    <label for="">10</label>
+                                                </div>
+                                                <div>    
+                                                    <input type="checkbox">
+                                                    <label for="">12</label>
+                                                </div>
+                                            </div>
+                                            <div class="quantidadediv">
+                                                <label for="">QUANT:</label>
+                                                <input class="quantidadeinput" type="text">
+                                            </div>
+                                        </div>
+
+
+                                        <div class="MateriaisDes">
+                                            <input type="checkbox">
+                                            <label for="">CATETER TP.ÓCULOS</label>
+                                            <div class="quantidadediv">
+                                                <label for="">QUANT:</label>
+                                                <input class="quantidadeinput" type="text">
+                                            </div>
+                                        </div>
+
+
+                                        <div>
+                                            <input type="checkbox">
+                                            <label for="">COMPRESSA COMUM</label>
+                                            <div class="quantidadediv">
+                                                <label for="">QUANT:</label>
+                                                <input class="quantidadeinput" type="text">
+                                            </div>
+                                        </div>
+
+
+                                        <div class="MateriaisDes">
+                                            <div>
+                                            <input type="checkbox">
+                                            <label for="">KIT'S</label>
+                                        </div>
+                                            <div>
+                                                <div>
+                                                    <input type="checkbox">
+                                                    <label for="">H</label>
+                                                </div>
+                                                <div>
+                                                    <input type="checkbox">
+                                                    <label for="">P</label>
+                                                </div>
+                                                <div>    
+                                                    <input type="checkbox">
+                                                    <label for="">Q</label>
+                                                </div>
+                                            </div>
+                                            <div class="quantidadediv">
+                                                <label for="">QUANT:</label>
+                                                <input class="quantidadeinput" type="text">
+                                            </div>
+                                        </div>
+
+
+                                        <div>
+                                            <input type="checkbox">
+                                            <label for="">PARES LUVAS DESCARTÁVEIS</label>
+                                            <div class="quantidadediv">
+                                                <label for="">QUANT:</label>
+                                                <input class="quantidadeinput" type="text">
+                                            </div>
+                                        </div>
+
+
+                                        <div>
+                                            <input type="checkbox">
+                                            <label for="">MÁSCARA DESCARTÁVEL</label>
+                                            <div class="quantidadediv">
+                                                <label for="">QUANT:</label>
+                                                <input class="quantidadeinput" type="text">
+                                            </div>
+                                        </div>
+
+
+                                        <div>
+                                            <input type="checkbox">
+                                            <label for="">MANTA ALUMINIZADA</label>
+                                            <div class="quantidadediv">
+                                                <label for="">QUANT:</label>
+                                                <input class="quantidadeinput" type="text">
+                                            </div>
+                                        </div>
+
+
+                                        <div>
+                                            <input type="checkbox">
+                                            <label for="">PÁS DO DEA</label>
+                                            <div class="quantidadediv">
+                                                <label for="">QUANT:</label>
+                                                <input class="quantidadeinput" type="text">
+                                            </div>
+                                        </div>
+
+
+                                        <div>
+                                            <input type="checkbox">
+                                            <label for="">SONDA DE ASPIRAÇÃO</label>
+                                            <div class="quantidadediv">
+                                                <label for="">QUANT:</label>
+                                                <input class="quantidadeinput" type="text">
+                                            </div>
+                                        </div>
+
+
+                                        <div>
+                                            <input type="checkbox">
+                                            <label for="">SORO FISIOLÓGICO
+                                            </label>
+                                        </div>
+
+
+                                        <div class="MateriaisDes">
+                                            <div>
+                                            <input type="checkbox">
+                                            <label for="">TALAS PAP.</label>
+                                        </div>
+                                            <div>
+                                                <div>
+                                                    <input type="checkbox">
+                                                    <label for="">P</label>
+                                                </div>
+                                                <div>
+                                                    <input type="checkbox">
+                                                    <label for="">G</label>
+                                                </div>
+                                            </div>
+                                            <div class="quantidadediv">
+                                                <label for="">QUANT:</label>
+                                                <input class="quantidadeinput" type="text">
+                                            </div>
+                                        </div>
+
+
+                                        <div>
+                                            <input type="checkbox">
+                                            <label for="">Outro:</label>
+                                            <input type="text">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFourteen" aria-expanded="false"
+                                    aria-controls="collapseFourteen">
+                                    MATERIAIS UTILIZADOS DEIXADO NO HOSPITAL
+                                </button>
+                            </h2>
+                            <div id="collapseThirteen" class="accordion-collapse collapse"
+                                aria-labelledby="headingThirteen" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <form style="display: flex;flex-direction: column; gap: 40px;" action="materiais_hospital">
+                                        
+                                        <div class="MateriaisDes">
+                                            <div>
+                                            <input type="checkbox">
+                                            <label for="">ATADURAS</label>
+                                        </div>
+                                            <div>
+                                                <div>
+                                                    <input type="checkbox">
+                                                    <label for="">8</label>
+                                                </div>
+                                                <div>
+                                                    <input type="checkbox">
+                                                    <label for="">10</label>
+                                                </div>
+                                                <div>    
+                                                    <input type="checkbox">
+                                                    <label for="">12</label>
+                                                </div>
+                                            </div>
+                                            <div class="quantidadediv">
+                                                <label for="">QUANT:</label>
+                                                <input class="quantidadeinput" type="text">
+                                            </div>
+                                        </div>
+
+
+                                        <div class="MateriaisDes">
+                                            <input type="checkbox">
+                                            <label for="">CATETER TP.ÓCULOS</label>
+                                            <div class="quantidadediv">
+                                                <label for="">QUANT:</label>
+                                                <input class="quantidadeinput" type="text">
+                                            </div>
+                                        </div>
+
+
+                                        <div>
+                                            <input type="checkbox">
+                                            <label for="">COMPRESSA COMUM</label>
+                                            <div class="quantidadediv">
+                                                <label for="">QUANT:</label>
+                                                <input class="quantidadeinput" type="text">
+                                            </div>
+                                        </div>
+
+
+                                        <div class="MateriaisDes">
+                                            <div>
+                                            <input type="checkbox">
+                                            <label for="">KIT'S</label>
+                                        </div>
+                                            <div>
+                                                <div>
+                                                    <input type="checkbox">
+                                                    <label for="">H</label>
+                                                </div>
+                                                <div>
+                                                    <input type="checkbox">
+                                                    <label for="">P</label>
+                                                </div>
+                                                <div>    
+                                                    <input type="checkbox">
+                                                    <label for="">Q</label>
+                                                </div>
+                                            </div>
+                                            <div class="quantidadediv">
+                                                <label for="">QUANT:</label>
+                                                <input class="quantidadeinput" type="text">
+                                            </div>
+                                        </div>
+
+
+                                        <div>
+                                            <input type="checkbox">
+                                            <label for="">PARES LUVAS DESCARTÁVEIS</label>
+                                            <div class="quantidadediv">
+                                                <label for="">QUANT:</label>
+                                                <input class="quantidadeinput" type="text">
+                                            </div>
+                                        </div>
+
+
+                                        <div>
+                                            <input type="checkbox">
+                                            <label for="">MÁSCARA DESCARTÁVEL</label>
+                                            <div class="quantidadediv">
+                                                <label for="">QUANT:</label>
+                                                <input class="quantidadeinput" type="text">
+                                            </div>
+                                        </div>
+
+
+                                        <div>
+                                            <input type="checkbox">
+                                            <label for="">MANTA ALUMINIZADA</label>
+                                            <div class="quantidadediv">
+                                                <label for="">QUANT:</label>
+                                                <input class="quantidadeinput" type="text">
+                                            </div>
+                                        </div>
+
+
+                                        <div>
+                                            <input type="checkbox">
+                                            <label for="">PÁS DO DEA</label>
+                                            <div class="quantidadediv">
+                                                <label for="">QUANT:</label>
+                                                <input class="quantidadeinput" type="text">
+                                            </div>
+                                        </div>
+
+
+                                        <div>
+                                            <input type="checkbox">
+                                            <label for="">SONDA DE ASPIRAÇÃO</label>
+                                            <div class="quantidadediv">
+                                                <label for="">QUANT:</label>
+                                                <input class="quantidadeinput" type="text">
+                                            </div>
+                                        </div>
+
+
+                                        <div>
+                                            <input type="checkbox">
+                                            <label for="">SORO FISIOLÓGICO
+                                            </label>
+                                        </div>
+
+
+                                        <div class="MateriaisDes">
+                                            <div>
+                                            <input type="checkbox">
+                                            <label for="">TALAS PAP.</label>
+                                        </div>
+                                            <div>
+                                                <div>
+                                                    <input type="checkbox">
+                                                    <label for="">P</label>
+                                                </div>
+                                                <div>
+                                                    <input type="checkbox">
+                                                    <label for="">G</label>
+                                                </div>
+                                            </div>
+                                            <div class="quantidadediv">
+                                                <label for="">QUANT:</label>
+                                                <input class="quantidadeinput" type="text">
+                                            </div>
+                                        </div>
+
+
+                                        <div>
+                                            <input type="checkbox">
+                                            <label for="">Outro:</label>
+                                            <input type="text">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSixteen" aria-expanded="false"
+                                    aria-controls="collapseSixteen">
+                                    ANANMESE DA EMERGÊNCIA MÉDICO
+                                </button>
+                            </h2>
+                            <div id="collapseSixteen" class="accordion-collapse collapse"
+                                aria-labelledby="headingSixteen" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by
+                                    default
+                                    <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSeventeen" aria-expanded="false"
+                                    aria-controls="collapseSeventeen">
+                                    ANANMESE GESTACIONAL
+                                </button>
+                            </h2>
+                            <div id="collapseSeventeen" class="accordion-collapse collapse"
+                                aria-labelledby="headingSeventeen" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by
+                                    default
+                                    <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseEighteen" aria-expanded="false"
+                                    aria-controls="collapseEighteen">
+                                    AVALIAÇÃO DA CINEMÁTICA
+                                </button>
+                            </h2>
+                            <div id="collapseEighteen" class="accordion-collapse collapse"
+                                aria-labelledby="headingEighteen" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+
+                                    <div class="container_cinemativa">
+
+
+                                        <label>
+                                            <p>DISTURBIO DE COMPORTAMENTO</p>
+                                        </label>
+                                        <div class="avaliacao_cinematica">
+                                            <label for="sexo_f">SIM</label>
+                                            <input type="radio" id="sexo_f" name="disturbio" value="F">
+                                            <br>
+                                            <label for="sexo_m">NÃO</label>
+                                            <input type="radio" id="sexo_m" name="disturbio" value="M">
+                                        </div>
+                                        <br>
+
+                                        <label>
+                                            <p>ENCONTRADO DE CAPACETE</p>
+                                        </label>
+                                        <div class="avaliacao_cinematica">
+                                            <label for="sexo_f">SIM</label>
+                                            <input type="radio" id="sexo_f" name="capacete" value="F">
+                                            <br>
+                                            <label for="sexo_m">NÃO</label>
+                                            <input type="radio" id="sexo_m" name="capacete" value="M">
+                                        </div>
+                                        <br>
+
+                                        <label>
+                                            <p>ENCONTRADO DE CINTO</p>
+                                        </label>
+                                        <div class="avaliacao_cinematica">
+                                            <label for="sexo_f">SIM</label>
+                                            <input type="radio" id="sexo_f" name="cinto" value="F">
+                                            <br>
+                                            <label for="sexo_m">NÃO</label>
+                                            <input type="radio" id="sexo_m" name="cinto" value="M">
+                                        </div>
+                                        <br>
+
+                                        <label>
+                                            <p>PARA-BRISAS AVARIADO</p>
+                                        </label>
+                                        <div class="avaliacao_cinematica">
+                                            <label for="sexo_f">SIM</label>
+                                            <input type="radio" id="sexo_f" name="avariado" value="F">
+                                            <br>
+                                            <label for="sexo_m">NÃO</label>
+                                            <input type="radio" id="sexo_m" name="avariado" value="M">
+                                        </div>
+                                        <br>
+
+                                        <label>
+                                            <p>CAMINHANDO NA CENA</p>
+                                        </label>
+                                        <div class="avaliacao_cinematica">
+                                            <label for="sexo_f">SIM</label>
+                                            <input type="radio" id="sexo_f" name="cena" value="F">
+                                            <br>
+                                            <label for="sexo_m">NÃO</label>
+                                            <input type="radio" id="sexo_m" name="cena" value="M">
+                                        </div>
+                                        <br>
+
+                                        <label>
+                                            <p>PAINEL AVARIADO</p>
+                                        </label>
+                                        <div class="avaliacao_cinematica">
+                                            <label for="sexo_f">SIM</label>
+                                            <input type="radio" id="sexo_f" name="painel" value="F">
+                                            <br>
+                                            <label for="sexo_m">NÃO</label>
+                                            <input type="radio" id="sexo_m" name="painel" value="M">
+                                        </div>
+                                        <br>
+
+                                        <label>
+                                            <p>VOLANTE TORCIDO</p>
+                                        </label>
+                                        <div class="avaliacao_cinematica">
+                                            <label for="sexo_f">SIM</label>
+                                            <input type="radio" id="sexo_f" name="torcido" value="F">
+                                            <br>
+                                            <label for="sexo_m">NÃO</label>
+                                            <input type="radio" id="sexo_m" name="torcido" value="M">
+                                        </div>
+                                        <br>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseNineteen" aria-expanded="false"
                                     aria-controls="collapseNineteen">
-                                    AVALIAÇÃO DO PACIENTE (GLASGOW)
+                                    RESPONSÁVEL PELO PREENCHIMENTO
                                 </button>
                             </h2>
                             <div id="collapseNineteen" class="accordion-collapse collapse"
                                 aria-labelledby="headingNineteen" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <strong>This is the second item's accordion body.</strong> It is hidden by default
-                                    <code>.accordion-body</code>, though the transition does limit overflow.
-                                </div>
-                            </div>
-                        </div>
 
-
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                    SINAIS E SINTOMAS
-                                </button>
-                            </h2>
-                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <form style="display: flex;flex-direction: column; gap: 10px;"
-                                        action="typeocorrenc">
-                                        <div><input type="checkbox">
-                                            <label for="">ABDOME SENSÍVEL OU RÍGIDO</label>
-                                        </div>
-
-
-                                        <div><input type="checkbox">
-                                            <label for="">AFUDANMENTO DE CRÂNIO</label>
-                                        </div>
-
-
-                                        <div><input type="checkbox">
-                                            <label for="">AGITAÇÃO</label>
-                                        </div>
-
-
-                                        <div><input type="checkbox">
-                                            <label for="">AMNÉSIA</label>
-                                        </div>
-
-
-                                        <div><input type="checkbox">
-                                            <label for="">ANGINA DE PEITO</label>
-                                        </div>
-
-
-                                        <div><input type="checkbox">
-                                            <label for="">APINÉIA</label>
-                                        </div>
-
-
-                                        <div><input type="checkbox">
-                                            <label for="">BRADICARDIA</label>
-                                        </div>
-
-
-                                        <div><input type="checkbox">
-                                            <label for="">BRADIPNÉIA</label>
-                                        </div>
-
-
-                                        <div><input type="checkbox">
-                                            <label for="">BRONCO-ASPIRADO</label>
-                                        </div>
-
-
-                                        <div><input type="checkbox">
-                                            <label for="">CEFALÉIA</label>
-                                        </div>
-
-                                        <div class="cianosetudo">
-                                            <div><input type="checkbox">
-                                                <label for="">CIANOSE</label>
-                                            </div>
-                                            <div class="cianosefilho">
-                                                <div>
-                                                    <input type="checkbox">
-                                                    <label for="">LÁBIOS</label>
-                                                </div>
-                                                <div>
-                                                    <input type="checkbox">
-                                                    <label for="">EXTREMIDADE</label>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-                                        <div><input type="checkbox">
-                                            <label for="">CONVULSÃO</label>
-                                        </div>
-
-
-                                        <div><input type="checkbox">
-                                            <label for="">DECORTICAÇÃO</label>
-                                        </div>
-
-
-                                        <div><input type="checkbox">
-                                            <label for="">DEFORMIDADE</label>
-                                        </div>
-
-
-                                        <div><input type="checkbox">
-                                            <label for="">DESCEREBRAÇÃO</label>
-                                        </div>
-
-
-                                        <div><input type="checkbox">
-                                            <label for="">DESMAIO</label>
-                                        </div>
-
-
-                                        <div><input type="checkbox">
-                                            <label for="">DESVIO DE TRAQUÉIA</label>
-                                        </div>
-
-
-                                        <div><input type="checkbox">
-                                            <label for="">DESPNÉIA</label>
-                                        </div>
-
-
-                                        <div><input type="checkbox">
-                                            <label for="">DOR LOCAL</label>
-                                        </div>
-
-
-                                        <div class="cianosetudo">
-                                            <div><input type="checkbox">
-                                                <label for="">EDEMA</label>
-                                            </div>
-                                            <div class="cianosefilho">
-                                                <div>
-                                                    <input type="checkbox">
-                                                    <label for="">GENERALIZADO</label>
-                                                </div>
-                                                <div>
-                                                    <input type="checkbox">
-                                                    <label for="">LOCALIZADO</label>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div><input type="checkbox">
-                                            <label for="">ENFISEMA SUBCUTÂNEO</label>
-                                        </div>
-
-                                        <div><input type="checkbox">
-                                            <label for="">ÊSTASE DE JUGULAR</label>
-                                        </div>
-
-                                        <div><input type="checkbox">
-                                            <label for="">FACE PÁLIDA</label>
-                                        </div>
-
-                                        <div class="cianosetudo">
-                                            <div><input type="checkbox">
-                                                <label for="">HEMORRAGIA</label>
-                                            </div>
-                                            <div class="cianosefilho">
-                                                <div>
-                                                    <input type="checkbox">
-                                                    <label for="">INTERNA</label>
-                                                </div>
-                                                <div>
-                                                    <input type="checkbox">
-                                                    <label for="">EXTERNA</label>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div><input type="checkbox">
-                                            <label for="">HIPERTENSÃO</label>
-                                        </div>
-
-                                        <div><input type="checkbox">
-                                            <label for="">HIPOTENSÃO</label>
-                                        </div>
-
-                                        <div><input type="checkbox">
-                                            <label for="">NÁUSEAS E VÔMITOS</label>
-                                        </div>
-
-                                        <div><input type="checkbox">
-                                            <label for="">NASORAGIA</label>
-                                        </div>
-
-                                        <div><input type="checkbox">
-                                            <label for="">ÓBITO</label>
-                                        </div>
-
-                                        <div><input type="checkbox">
-                                            <label for="">OTORRÉIA</label>
-                                        </div>
-
-                                        <div><input type="checkbox">
-                                            <label for="">OTORRAGIA</label>
-                                        </div>
-
-                                        <div><input type="checkbox">
-                                            <label for="">O.V.A.C.E</label>
-                                        </div>
-
-                                        <div class="cianosetudo">
-                                            <div><input type="checkbox">
-                                                <label for="">PARADA</label>
-                                            </div>
-                                            <div class="cianosefilho">
-                                                <div>
-                                                    <input type="checkbox">
-                                                    <label for="">CARDÍACA</label>
-                                                </div>
-                                                <div>
-                                                    <input type="checkbox">
-                                                    <label for="">RESPIRATÓRIA</label>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div><input type="checkbox">
-                                            <label for="">PRIAPRISMO</label>
-                                        </div>
-
-                                        <div><input type="checkbox">
-                                            <label for="">PRURIDO NA PELE</label>
-                                        </div>
-
-                                        <div class="cianosetudo">
-                                            <div><input type="checkbox">
-                                                <label for="">PUPILAS</label>
-                                            </div>
-                                            <div class="cianosefilho">
-                                                <div>
-                                                    <input type="checkbox">
-                                                    <label for="">ANISOCORIA</label>
-                                                </div>
-                                                <div>
-                                                    <input type="checkbox">
-                                                    <label for="">ISOCORIA</label>
-                                                </div>
-                                                <div class="midriase">
-                                                    <div class="midriasefilhos">
-                                                        <div>
-                                                            <input type="checkbox">
-                                                            <label for="">MIDRIASE</label>
-                                                        </div>
-                                                        <div>
-                                                            <input type="checkbox">
-                                                            <label for="">MIOSE</label>
-                                                        </div>
-                                                    </div>
-                                                    <div class="reagentes">
-                                                        <div>
-                                                            <input type="checkbox">
-                                                            <label for="">REAGENTE</label>
-                                                        </div>
-                                                        <div>
-                                                            <input type="checkbox">
-                                                            <label for="">NÃO REAGENTE</label>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div><input type="checkbox">
-                                            <label for="">SEDE</label>
-                                        </div>
-
-                                        <div><input type="checkbox">
-                                            <label for="">SINAL DE BATTLE</label>
-                                        </div>
-
-                                        <div><input type="checkbox">
-                                            <label for="">SINAL DE GUAXININ</label>
-                                        </div>
-
-                                        <div><input type="checkbox">
-                                            <label for="">SUDORESE</label>
-                                        </div>
-
-                                        <div><input type="checkbox">
-                                            <label for="">TAQUIPNÉIA</label>
-                                        </div>
-
-                                        <div><input type="checkbox">
-                                            <label for="">TAQUICARDIA</label>
-                                        </div>
-
-                                        <div><input type="checkbox">
-                                            <label for="">TONTURA</label>
-                                        </div>
-
-                                        <div><input type="checkbox">
-                                            <label for="">Outro:</label>
-                                            <input type="text">
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                    AVALIAÇÃO DO PACIENTE
-                                </button>
-                            </h2>
-                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>This is the second item's accordion body.</strong> It is hidden by default
-                                    <code>.accordion-body</code>, though the transition does limit overflow.
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                    LOCALIZAÇÃO DOS TRAUMAS
-                                </button>
-                            </h2>
-                            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-
-                                    <div><input type="checkbox">
-                                        <label for="">ASPIRAÇÃO </label>
+                                    <div class="mb-3">
+                                        <label for="formGroupExampleInput" class="form-label">NOME DO RESPONSÁVEL
+                                            PELO PREENCHIMENTO:</label>
+                                        <input type="text" class="form-control" id="formGroupExampleInput"
+                                            placeholder="NOME COMPLETO">
                                     </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">AVALIAÇÃO INICIAL</label>
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">AVALIAÇÃO DIRIGIDA</label>
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">CHAVE DE RAUTEK</label>
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">CÂNULA DE GUEDEL </label>
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">DESOBSTRUÇÃO DE V.A</label>
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">EMPREGO DO D.E.A</label>
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">GERENCIAMENTO DE RISCOS</label>
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">LIMPEZA DE FERIMENTO</label>
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">CURATIVOS</label>
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">COMPRESSIVOS</label>
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">ENCRAVAMENTO</label>
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">OCULAR</label>
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">QUEIMADURA</label>
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">SIMPLES</label>
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">3 PONTAS</label>
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">IMOBILIZAÇÕES</label>
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">MEMBRO INF. DIREITO</label>
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">MEMBRO INF. ESQUERDO</label>
-                                    </div>
-
-                                    <div><input type="checkbox">
-                                        <label for="">MEMBRO SUPERIOR DIREITO </label>
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">MEMBRO SUPERIOR ESQUERDO</label>
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">QUADRIL</label>
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">CERVICAL</label>
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">MACA SOBRE RODAS </label>
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">MACA RÍGIDA</label>
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">PONTE</label>
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">RETIRADO CAPACETE</label>
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">R.C.P</label>
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">ROLAMENTO 90°</label>
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">ROLAMENTO 180°</label>
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">TOMADA DECISÃO</label>
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">TRATADO CHOQUE</label>
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">USO DE CÂNULA</label>
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">USO COLAR TAM:</label>
-                                        <input type="text">
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">USO KED</label>
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">USO TTF</label>
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">VENTILAÇÃO SUPORTE</label>
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">OXIGENIOTERAPIA</label>
-                                        <input type="text"> LPM
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">REANIMADOR</label>
-                                        <input type="text"> LPM
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">CELESC</label>
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">POLICIA </label>
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">CIVIL(PEQUENO)</label>
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">MILITAR (PEQUENO)</label>
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">PRE(PEQUENO)</label>
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">PRF(PEQUENO) </label>
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">SAMU</label>
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">USA(PEQUENO)</label>
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">USB(PEQUENO)</label>
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">CIT</label>
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">OUTRO:</label>
-                                        <input type="text">
-                                    </div>
-
 
                                 </div>
                             </div>
                         </div>
-
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                                    FORMA DE CONDUÇÃO
-                                </button>
-                            </h2>
-                            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-
-                                    <div><input type="checkbox">
-                                        <label for="">DEITADA</label>
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">SEMI-DEITADA</label>
-                                    </div>
-
-
-                                    <div><input type="checkbox">
-                                        <label for="">SENTADA</label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-                                    VITIMA ERA
-                                </button>
-                            </h2>
-                            <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <form style="display: flex;flex-direction: column; gap: 10px;" action="vitima_era">
-                                        <div><input type="checkbox">
-                                            <label for="">CICLISTA</label>
-                                        </div>
-
-
-                                        <div><input type="checkbox">
-                                            <label for="">CONDUTOR DE CARRO</label>
-                                        </div>
-
-
-                                        <div><input type="checkbox">
-                                            <label for="">CONDUTOR MOTO</label>
-                                        </div>
-
-
-                                        <div><input type="checkbox">
-                                            <label for="">PASSAG.BANCO.FRENTE</label>
-                                        </div>
-
-
-                                        <div><input type="checkbox">
-                                            <label for="">PASSAG.BANCO.TRÁS</label>
-                                        </div>
-
-
-                                        <div><input type="checkbox">
-                                            <label for="">PASSAG.MOTO</label>
-                                        </div>
-
-
-                                        <div><input type="checkbox">
-                                            <label for="">CLÍNICO</label>
-                                        </div>
-
-
-                                        <div><input type="checkbox">
-                                            <label for="">GESTANTE</label>
-                                        </div>
-
-
-                                        <div><input type="checkbox">
-                                            <label for="">TRAUMA</label>
-                                        </div>
-
-
-                                        <div><input type="checkbox">
-                                            <label for="">PEDESTRE</label>
-                                        </div>
-
-
-                                        <div><input type="checkbox">
-                                            <label for="">Outro:</label>
-                                            <input type="text">
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingThree">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
-                                        DECISÃO TRANSPORTE
-                                    </button>
-                                </h2>
-                                <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                       
-                                        <div class="div_container">
-                                            <div class="div_opcoes_paci">
-                                                <div class="quadrado_paci">
-                                                    <img src="../IMAGENS/situação_paciente1.png" alt="">
-                                                    <input type="checkbox" name="" id="">
-                                                </div>
-                                                <div class="quadrado_paci">
-                                                    <img src="../IMAGENS/situação_paciente2.png" alt="">
-                                                    <input type="checkbox" name="" id=""></div>
-                                                <div class="quadrado_paci">
-                                                    <img src="../IMAGENS/situação_paciente3.png" alt="">
-                                                    <input type="checkbox" name="" id=""></div>
-                                                <div class="quadrado_paci">
-                                                    <img src="../IMAGENS/situação_paciente4.png" alt="">
-                                                    <input type="checkbox" name="" id=""></div>
-                                            </div>
-                                            <p>EQUIPE DE ATENDIMENTO</p>
-
-                                            <div class="um">
-                                                <label for="">M:</label>
-                                                <input type="text">
-                                            </div>
-
-                                            <div class="um">
-                                                <label for="">S1:</label>
-                                                <input type="text">
-                                            </div>
-
-                                            <div class="um">
-                                                <label for="">S2:</label>
-                                                <input type="text">
-                                            </div>
-
-                                            <div class="um">
-                                                <label for="">S3:</label>
-                                                <input type="text">
-                                            </div>
-
-                                            <div class="um">
-                                                <label for="">DEMANDANTE:</label>
-                                                <input type="text">
-                                            </div>
-
-                                            <div class="um">
-                                                <label for="">EQUIPE:</label>
-                                                <input type="text">
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingThree">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseEleven" aria-expanded="false"
-                                        aria-controls="collapseEleven">
-                                        OBJETOS RECOLHIDOS
-                                    </button>
-                                </h2>
-                                <div id="collapseEleven" class="accordion-collapse collapse"
-                                    aria-labelledby="headingEleven" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-
-                                        <div class="mb-3">
-                                            <label for="formGroupExampleInput" class="form-label"></label>
-                                            <input type="text" class="form-control" id="formGroupExampleInput"
-                                                placeholder="DIGITE AQUI">
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingThree">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseTwelve" aria-expanded="false"
-                                        aria-controls="collapseTwelve">
-                                        PROCEDIMENTOS EFETUADOS
-                                    </button>
-                                </h2>
-                                <div id="collapseTwelve" class="accordion-collapse collapse"
-                                    aria-labelledby="headingTwelve" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <strong>This is the second item's accordion body.</strong> It is hidden by
-                                        default
-                                        <code>.accordion-body</code>, though the transition does limit overflow.
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingThree">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseThirteen" aria-expanded="false"
-                                        aria-controls="collapseThirteen">
-                                        MATERIAIS UTILIZADOS DESCARTÁVEIS
-                                    </button>
-                                </h2>
-                                <div id="collapseThirteen" class="accordion-collapse collapse"
-                                    aria-labelledby="headingThirteen" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <form style="display: flex;flex-direction: column; gap: 40px;" action="vitima_era">
-                                            
-                                            <div class="MateriaisDes">
-                                                <div>
-                                                <input type="checkbox">
-                                                <label for="">ATADURAS</label>
-                                            </div>
-                                                <div>
-                                                    <div>
-                                                        <input type="checkbox">
-                                                        <label for="">8</label>
-                                                    </div>
-                                                    <div>
-                                                        <input type="checkbox">
-                                                        <label for="">10</label>
-                                                    </div>
-                                                    <div>    
-                                                        <input type="checkbox">
-                                                        <label for="">12</label>
-                                                    </div>
-                                                </div>
-                                                <div class="quantidadediv">
-                                                    <label for="">QUANT:</label>
-                                                    <input class="quantidadeinput" type="text">
-                                                </div>
-                                            </div>
-    
-    
-                                            <div class="MateriaisDes">
-                                                <input type="checkbox">
-                                                <label for="">CATETER TP.ÓCULOS</label>
-                                                <div class="quantidadediv">
-                                                    <label for="">QUANT:</label>
-                                                    <input class="quantidadeinput" type="text">
-                                                </div>
-                                            </div>
-    
-    
-                                            <div>
-                                                <input type="checkbox">
-                                                <label for="">COMPRESSA COMUM</label>
-                                                <div class="quantidadediv">
-                                                    <label for="">QUANT:</label>
-                                                    <input class="quantidadeinput" type="text">
-                                                </div>
-                                            </div>
-    
-    
-                                            <div class="MateriaisDes">
-                                                <div>
-                                                <input type="checkbox">
-                                                <label for="">KIT'S</label>
-                                            </div>
-                                                <div>
-                                                    <div>
-                                                        <input type="checkbox">
-                                                        <label for="">H</label>
-                                                    </div>
-                                                    <div>
-                                                        <input type="checkbox">
-                                                        <label for="">P</label>
-                                                    </div>
-                                                    <div>    
-                                                        <input type="checkbox">
-                                                        <label for="">Q</label>
-                                                    </div>
-                                                </div>
-                                                <div class="quantidadediv">
-                                                    <label for="">QUANT:</label>
-                                                    <input class="quantidadeinput" type="text">
-                                                </div>
-                                            </div>
-    
-    
-                                            <div>
-                                                <input type="checkbox">
-                                                <label for="">PARES LUVAS DESCARTÁVEIS</label>
-                                                <div class="quantidadediv">
-                                                    <label for="">QUANT:</label>
-                                                    <input class="quantidadeinput" type="text">
-                                                </div>
-                                            </div>
-    
-    
-                                            <div>
-                                                <input type="checkbox">
-                                                <label for="">MÁSCARA DESCARTÁVEL</label>
-                                                <div class="quantidadediv">
-                                                    <label for="">QUANT:</label>
-                                                    <input class="quantidadeinput" type="text">
-                                                </div>
-                                            </div>
-    
-    
-                                            <div>
-                                                <input type="checkbox">
-                                                <label for="">MANTA ALUMINIZADA</label>
-                                                <div class="quantidadediv">
-                                                    <label for="">QUANT:</label>
-                                                    <input class="quantidadeinput" type="text">
-                                                </div>
-                                            </div>
-    
-    
-                                            <div>
-                                                <input type="checkbox">
-                                                <label for="">PÁS DO DEA</label>
-                                                <div class="quantidadediv">
-                                                    <label for="">QUANT:</label>
-                                                    <input class="quantidadeinput" type="text">
-                                                </div>
-                                            </div>
-    
-    
-                                            <div>
-                                                <input type="checkbox">
-                                                <label for="">SONDA DE ASPIRAÇÃO</label>
-                                                <div class="quantidadediv">
-                                                    <label for="">QUANT:</label>
-                                                    <input class="quantidadeinput" type="text">
-                                                </div>
-                                            </div>
-
-    
-                                            <div>
-                                                <input type="checkbox">
-                                                <label for="">SORO FISIOLÓGICO
-                                                </label>
-                                            </div>
-
-
-                                            <div class="MateriaisDes">
-                                                <div>
-                                                <input type="checkbox">
-                                                <label for="">ATADURAS</label>
-                                            </div>
-                                                <div>
-                                                    <div>
-                                                        <input type="checkbox">
-                                                        <label for="">8</label>
-                                                    </div>
-                                                    <div>
-                                                        <input type="checkbox">
-                                                        <label for="">10</label>
-                                                    </div>
-                                                    <div>    
-                                                        <input type="checkbox">
-                                                        <label for="">12</label>
-                                                    </div>
-                                                </div>
-                                                <div class="quantidadediv">
-                                                    <label for="">QUANT:</label>
-                                                    <input class="quantidadeinput" type="text">
-                                                </div>
-                                            </div>
-
-    
-                                            <div>
-                                                <input type="checkbox">
-                                                <label for="">Outro:</label>
-                                                <input type="text">
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingThree">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseFourteen" aria-expanded="false"
-                                        aria-controls="collapseFourteen">
-                                        MATERIAIS UTILIZADOS DEIXADO NO HOSPITAL
-                                    </button>
-                                </h2>
-                                <div id="collapseFourteen" class="accordion-collapse collapse"
-                                    aria-labelledby="headingFourteen" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <strong>This is the second item's accordion body.</strong> It is hidden by
-                                        default
-                                        <code>.accordion-body</code>, though the transition does limit overflow.
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingThree">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseFifteen" aria-expanded="false"
-                                        aria-controls="collapseFifteen">
-                                        TERMO DE RECUSA DE ATENDIMENTO E/OU TRANSPORTE
-                                    </button>
-                                </h2>
-                                <div id="collapseFifteen" class="accordion-collapse collapse"
-                                    aria-labelledby="headingFifteen" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <strong>This is the second item's accordion body.</strong> It is hidden by
-                                        default
-                                        <code>.accordion-body</code>, though the transition does limit overflow.
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingThree">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseSixteen" aria-expanded="false"
-                                        aria-controls="collapseSixteen">
-                                        ANANMESE DA EMERGÊNCIA MÉDICO
-                                    </button>
-                                </h2>
-                                <div id="collapseSixteen" class="accordion-collapse collapse"
-                                    aria-labelledby="headingSixteen" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <strong>This is the second item's accordion body.</strong> It is hidden by
-                                        default
-                                        <code>.accordion-body</code>, though the transition does limit overflow.
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingThree">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseSeventeen" aria-expanded="false"
-                                        aria-controls="collapseSeventeen">
-                                        ANANMESE GESTACIONAL
-                                    </button>
-                                </h2>
-                                <div id="collapseSeventeen" class="accordion-collapse collapse"
-                                    aria-labelledby="headingSeventeen" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <strong>This is the second item's accordion body.</strong> It is hidden by
-                                        default
-                                        <code>.accordion-body</code>, though the transition does limit overflow.
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingThree">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseEighteen" aria-expanded="false"
-                                        aria-controls="collapseEighteen">
-                                        AVALIAÇÃO DA CINEMÁTICA
-                                    </button>
-                                </h2>
-                                <div id="collapseEighteen" class="accordion-collapse collapse"
-                                    aria-labelledby="headingEighteen" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-
-                                        <div class="container_cinemativa">
-
-
-                                            <label>
-                                                <p>DISTURBIO DE COMPORTAMENTO</p>
-                                            </label>
-                                            <div class="avaliacao_cinematica">
-                                                <label for="sexo_f">SIM</label>
-                                                <input type="radio" id="sexo_f" name="disturbio" value="F">
-                                                <br>
-                                                <label for="sexo_m">NÃO</label>
-                                                <input type="radio" id="sexo_m" name="disturbio" value="M">
-                                            </div>
-                                            <br>
-
-                                            <label>
-                                                <p>ENCONTRADO DE CAPACETE</p>
-                                            </label>
-                                            <div class="avaliacao_cinematica">
-                                                <label for="sexo_f">SIM</label>
-                                                <input type="radio" id="sexo_f" name="capacete" value="F">
-                                                <br>
-                                                <label for="sexo_m">NÃO</label>
-                                                <input type="radio" id="sexo_m" name="capacete" value="M">
-                                            </div>
-                                            <br>
-
-                                            <label>
-                                                <p>ENCONTRADO DE CINTO</p>
-                                            </label>
-                                            <div class="avaliacao_cinematica">
-                                                <label for="sexo_f">SIM</label>
-                                                <input type="radio" id="sexo_f" name="cinto" value="F">
-                                                <br>
-                                                <label for="sexo_m">NÃO</label>
-                                                <input type="radio" id="sexo_m" name="cinto" value="M">
-                                            </div>
-                                            <br>
-
-                                            <label>
-                                                <p>PARA-BRISAS AVARIADO</p>
-                                            </label>
-                                            <div class="avaliacao_cinematica">
-                                                <label for="sexo_f">SIM</label>
-                                                <input type="radio" id="sexo_f" name="avariado" value="F">
-                                                <br>
-                                                <label for="sexo_m">NÃO</label>
-                                                <input type="radio" id="sexo_m" name="avariado" value="M">
-                                            </div>
-                                            <br>
-
-                                            <label>
-                                                <p>CAMINHANDO NA CENA</p>
-                                            </label>
-                                            <div class="avaliacao_cinematica">
-                                                <label for="sexo_f">SIM</label>
-                                                <input type="radio" id="sexo_f" name="cena" value="F">
-                                                <br>
-                                                <label for="sexo_m">NÃO</label>
-                                                <input type="radio" id="sexo_m" name="cena" value="M">
-                                            </div>
-                                            <br>
-
-                                            <label>
-                                                <p>PAINEL AVARIADO</p>
-                                            </label>
-                                            <div class="avaliacao_cinematica">
-                                                <label for="sexo_f">SIM</label>
-                                                <input type="radio" id="sexo_f" name="painel" value="F">
-                                                <br>
-                                                <label for="sexo_m">NÃO</label>
-                                                <input type="radio" id="sexo_m" name="painel" value="M">
-                                            </div>
-                                            <br>
-
-                                            <label>
-                                                <p>VOLANTE TORCIDO</p>
-                                            </label>
-                                            <div class="avaliacao_cinematica">
-                                                <label for="sexo_f">SIM</label>
-                                                <input type="radio" id="sexo_f" name="torcido" value="F">
-                                                <br>
-                                                <label for="sexo_m">NÃO</label>
-                                                <input type="radio" id="sexo_m" name="torcido" value="M">
-                                            </div>
-                                            <br>
-
-                                        </div>
-
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingThree">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseNineteen" aria-expanded="false"
-                                        aria-controls="collapseNineteen">
-                                        RESPONSÁVEL PELO PREENCHIMENTO
-                                    </button>
-                                </h2>
-                                <div id="collapseNineteen" class="accordion-collapse collapse"
-                                    aria-labelledby="headingNineteen" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-
-                                        <div class="mb-3">
-                                            <label for="formGroupExampleInput" class="form-label">NOME DO RESPONSÁVEL
-                                                PELO PREENCHIMENTO:</label>
-                                            <input type="text" class="form-control" id="formGroupExampleInput"
-                                                placeholder="NOME COMPLETO">
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-
 
                     </div>
 
 
 
-
-
                 </div>
-                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-                    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-                    crossorigin="anonymous"></script>
+
+
+
+
+
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+                crossorigin="anonymous"></script>
 </body>
 
 </html>

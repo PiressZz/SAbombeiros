@@ -1035,14 +1035,14 @@ p{
 .sinais_vitais{
     width: 90vw;
     height: 300px;
-    background-color: #F00;
+    /* background-color: #F00; */
     flex-direction: column;
 }
 
 .div_container{
     width: 90vw;
     height: 600px;
-    background-color: #F00;
+    /* background-color: #F00; */
     flex-direction: column;
     
 }
@@ -1050,7 +1050,7 @@ p{
 .div_opcoes_paci{
     width: 100%;
     height: fit-content;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: space-around;
     flex-direction: row;
@@ -1074,7 +1074,7 @@ p{
 
 .pressao_arterial{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .pulso{
@@ -1084,10 +1084,13 @@ p{
 
 .respiracao{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 10px;
 }
 
-
+.sinais_vitais input[type=text]{
+    height: 20px;
+}
 
 
 .MateriaisDes{
@@ -1103,4 +1106,18 @@ p{
     width: 40vw;
     display: flex;
     justify-content: end;
+}
+
+.temperatura{
+    width: 100%;
+    height: fit-content;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.temperatura >p{
+    margin: 0;
+    border:0;
 }
