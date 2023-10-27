@@ -1121,3 +1121,16 @@ p{
     margin: 0;
     border:0;
 }
+
+.contracoes{
+    flex-direction: column;
+    gap: 5px;
+}
+
+.elementscheck{
+    display: flex;
+    margin-left: 10px;
+}
+.checkboxmat{
+    display: flex;
+}
