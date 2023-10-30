@@ -1041,7 +1041,7 @@ p{
 
 .div_container{
     width: 90vw;
-    height: 600px;
+    height: fit-content;
     /* background-color: #F00; */
     flex-direction: column;
     
