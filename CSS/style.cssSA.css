@@ -1134,3 +1134,97 @@ p{
 .checkboxmat{
     display: flex;
 }
+
+.div_total{
+    width: 600px;
+    height: fit-content;
+    /* background-color: aqua; */
+}
+
+.nivel_conciencia{
+    height: 25px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.retangulo_avaliacao{
+    width: 100%;
+    height: 150px;
+    border: 1px solid black;
+    display: flex;
+}
+
+.retangulo_avaliacao2{
+    width: 100%;
+    height: 180px;
+    border: 1px solid black;
+    display: flex;
+}
+
+.texto_paciente{
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.opcoes_avaliacao{
+    width: 80%;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+}
+
+.area_avaliacao{
+    width: 100%;
+    height: 20%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.area_avaliacao>h2{
+    font-size: 12px;
+    margin: 0;
+}
+.area_avaliacao> input{
+    margin: 0;
+}
+
+.area_avaliacao1{
+    width: 100%;
+    height: 17%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.area_avaliacao1>h2{
+    font-size: 12px;
+    margin: 0;
+}
+
+
+.area_avaliacao2{
+    width: 100%;
+    height: 20%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.area_avaliacao3{
+    width: 100%;
+    height: 17%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.area2_opcoes{
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+}
