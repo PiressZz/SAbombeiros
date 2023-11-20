@@ -472,15 +472,15 @@ html {
     font-family: 'Poppins', sans-serif;
 }
 .logo_medicina{
-    width: 100%;
+    width: 50%;
     height: 20%;
     display: flex;
     background-color: white;
     justify-content: center;
     align-items: center;
 }
-.logo_medicina>img{
-    height: 60%;
+.logo_medicina img{
+    height: 10%;
     width: 25%;
 }
 .registrar{
@@ -1227,4 +1227,14 @@ p{
     width: 50%;
     height: 100%;
     border: 1px solid black;
+}
+.paipagini{
+    display: flex;
+    flex-direction: column;
+    gap: 20vw;
+    margin-top: 30vw;
+    border: none;
+}
+.paginain{
+    border: navajowhite;
 }
