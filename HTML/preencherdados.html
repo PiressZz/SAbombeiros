@@ -21,16 +21,16 @@
                     <a class="navbar-brand mb-0 h1" href="#">Bombeiros</a>
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Página Inicial</a>
+                            <a class="nav-link" href="pagina_inicial.html">Página Inicial</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Sobre</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contato</a>
+                            <a class="nav-link" href="sobre.html">Sobre</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="login.html">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Registro.html">Registro</a>
                         </li>
                     </ul>
                 </div>
@@ -58,16 +58,16 @@
                     <div class="offcanvas-body">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Página Inicial</a>
+                                <a class="nav-link" href="pagina_inicial.html">Página Inicial</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Sobre</a>
+                                <a class="nav-link" href="sobre.html">Sobre</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contato</a>
+                                <a class="nav-link" href="login.html">Login</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Login</a>
+                                <a class="nav-link" href="Registro.html">Registro</a>
                             </li>
                         </ul>
                     </div>
@@ -274,35 +274,35 @@
                                 </div>
                                 <br>
                                 <div class="temperatura"><label for="">
-                                    <p>TEMPERATURA</p>
-                                </label>
-                                <input type="text">
-                                <P>C°</P></label>
-                                <div class="avaliacao_cinematica">
-                                    <label for="sexo_f">ANORMAL</label>
-                                    <input type="radio" id="sexo_f" name="torcido" value="F">
+                                        <p>TEMPERATURA</p>
+                                    </label>
+                                    <input type="text">
+                                    <P>C°</P></label>
+                                    <div class="avaliacao_cinematica">
+                                        <label for="sexo_f">ANORMAL</label>
+                                        <input type="radio" id="sexo_f" name="torcido" value="F">
+                                        <br>
+                                        <label for="sexo_m">NORMAL</label>
+                                        <input type="radio" id="sexo_m" name="torcido" value="M">
+                                    </div>
                                     <br>
-                                    <label for="sexo_m">NORMAL</label>
-                                    <input type="radio" id="sexo_m" name="torcido" value="M">
+
                                 </div>
-                                <br>
+                                <div class="temperatura"><label for="">
+                                        <p>PERFUSÃO >2</p>
+                                    </label>
+                                    <input type="checkbox">
+                                    </label>
 
-                            </div>
-                            <div class="temperatura"><label for="">
-                                <p>PERFUSÃO >2</p>
-                            </label>
-                            <input type="checkbox">
-                           </label>
+                                    <label for="">
+                                        <p>PERFUSÃO <2 </p>
+                                    </label>
+                                    <input type="checkbox">
+                                    </label>
 
-                           <label for="">
-                            <p>PERFUSÃO <2 </p>
-                        </label>
-                        <input type="checkbox">
-                       </label>
 
-                            
 
-                        </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -506,16 +506,15 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingThree">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseNineteen" aria-expanded="false"
-                                aria-controls="collapseNineteen">
-                                AVALIAÇÃO DO PACIENTE (GLASGOW)
+                                data-bs-target="#collapseThre" aria-expanded="false" aria-controls="collapseThre">
+                                AVALIAÇÃO DO PACIENTE(GLASGOW)
                             </button>
                         </h2>
-                        <div id="collapseNineteen" class="accordion-collapse collapse" aria-labelledby="headingNineteen"
+
+                        <div id="collapseThre" class="accordion-collapse collapse" aria-labelledby="headingThre"
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <div class="div_container">
-
                                     <div class="div_total">
                                         <div class="nivel_conciencia">
                                             <p>NÍVEL DE CONSCIÊNCIA</p>
@@ -531,32 +530,32 @@
                                                     <div class="area_avaliacao2">
                                                         <p>MAIORES DE 5 ANOS</p>
                                                     </div>
-                                                <div class="area_avaliacao">
-                                                    <h2>ESPONTÂNEA</h2>
-                                                    <input type="checkbox">
+                                                    <div class="area_avaliacao">
+                                                        <h2>ESPONTÂNEA</h2>
+                                                        <input type="checkbox">
                                                         <h2>4</h2>
-                                                </div>
+                                                    </div>
 
 
-                                                <div class="area_avaliacao">
-                                                    <h2>COMANDO VERBAL</h2>
-                                                    <input type="checkbox">
+                                                    <div class="area_avaliacao">
+                                                        <h2>COMANDO VERBAL</h2>
+                                                        <input type="checkbox">
                                                         <h2>3</h2>
-                                                </div>
+                                                    </div>
 
 
-                                                <div class="area_avaliacao">
-                                                    <h2>ESTÍMULO DOLOROSO</h2>
-                                                    <input type="checkbox">
+                                                    <div class="area_avaliacao">
+                                                        <h2>ESTÍMULO DOLOROSO</h2>
+                                                        <input type="checkbox">
                                                         <h2>2</h2>
-                                                </div>
+                                                    </div>
 
 
-                                                <div class="area_avaliacao">
-                                                    <h2>NENHUMA</h2>
-                                                    <input type="checkbox">
+                                                    <div class="area_avaliacao">
+                                                        <h2>NENHUMA</h2>
+                                                        <input type="checkbox">
                                                         <h2>1</h2>
-                                                </div>
+                                                    </div>
                                                 </div>
 
                                                 <div class="area2_opcoes">
@@ -565,21 +564,21 @@
                                                     </div>
                                                     <div class="area_avaliacao">
                                                         <h2>ESPONTÂNEA</h2>
-                                                    <input type="checkbox">
+                                                        <input type="checkbox">
                                                         <h2>4</h2>
                                                     </div>
 
 
                                                     <div class="area_avaliacao">
                                                         <h2>COMANDO VERBAL</h2>
-                                                    <input type="checkbox">
+                                                        <input type="checkbox">
                                                         <h2>3</h2>
                                                     </div>
 
 
                                                     <div class="area_avaliacao">
                                                         <h2>ESTÍMULO DOLOROSO</h2>
-                                                    <input type="checkbox">
+                                                        <input type="checkbox">
                                                         <h2>2</h2>
                                                     </div>
 
@@ -587,10 +586,10 @@
                                                     <div class="area_avaliacao">
                                                         <h2>NENHUMA</h2>
                                                         <input type="checkbox">
-                                                            <h2>1</h2>
+                                                        <h2>1</h2>
                                                     </div>
                                                 </div>
-                                                
+
                                             </div>
                                         </div>
                                         <div class="retangulo_avaliacao">
@@ -603,74 +602,74 @@
                                                     <div class="area_avaliacao">
                                                         <h2>ORIENTADO</h2>
                                                         <input type="checkbox">
-                                                            <h2>5</h2>
+                                                        <h2>5</h2>
                                                     </div>
 
 
-                                                <div class="area_avaliacao">
-                                                    <h2>CONFUSO</h2>
-                                                    <input type="checkbox">
-                                                        <h2>4</h2>
-                                                </div>
-
-
-                                                <div class="area_avaliacao">
-                                                    <h2>PALAVRAS INAPROPRIADAS</h2>
-                                                    <input type="checkbox">
-                                                        <h2>3</h2>
-                                                </div>
-
-
-                                                <div class="area_avaliacao">
-                                                    <h2>PALAVRAS INCOMPREENSÍVEIS</h2>
-                                                    <input type="checkbox">
-                                                        <h2>2</h2>
-                                                </div>
-
-
-                                                <div class="area_avaliacao">
-                                                    <h2>NENHUMA</h2>
-                                                    <input type="checkbox">
-                                                        <h2>1</h2>
-                                                </div>
-                                                </div>
-
-                                                <div class="area2_opcoes">
                                                     <div class="area_avaliacao">
-                                                        <h2>PALAVRAS E FRASES APROPRIADAS</h2>
+                                                        <h2>CONFUSO</h2>
                                                         <input type="checkbox">
-                                                            <h2>5</h2>
+                                                        <h2>4</h2>
                                                     </div>
 
 
                                                     <div class="area_avaliacao">
                                                         <h2>PALAVRAS INAPROPRIADAS</h2>
                                                         <input type="checkbox">
-                                                            <h2>4</h2>
+                                                        <h2>3</h2>
+                                                    </div>
+
+
+                                                    <div class="area_avaliacao">
+                                                        <h2>PALAVRAS INCOMPREENSÍVEIS</h2>
+                                                        <input type="checkbox">
+                                                        <h2>2</h2>
+                                                    </div>
+
+
+                                                    <div class="area_avaliacao">
+                                                        <h2>NENHUMA</h2>
+                                                        <input type="checkbox">
+                                                        <h2>1</h2>
+                                                    </div>
+                                                </div>
+
+                                                <div class="area2_opcoes">
+                                                    <div class="area_avaliacao">
+                                                        <h2>PALAVRAS E FRASES APROPRIADAS</h2>
+                                                        <input type="checkbox">
+                                                        <h2>5</h2>
+                                                    </div>
+
+
+                                                    <div class="area_avaliacao">
+                                                        <h2>PALAVRAS INAPROPRIADAS</h2>
+                                                        <input type="checkbox">
+                                                        <h2>4</h2>
                                                     </div>
 
 
                                                     <div class="area_avaliacao">
                                                         <h2>CHORO PERSISTENTES OU GRITOS</h2>
                                                         <input type="checkbox">
-                                                            <h2>3</h2>
+                                                        <h2>3</h2>
                                                     </div>
 
 
                                                     <div class="area_avaliacao">
                                                         <h2>SONS INCOMPREENSÍVEIS</h2>
                                                         <input type="checkbox">
-                                                            <h2>2</h2>
+                                                        <h2>2</h2>
                                                     </div>
 
 
                                                     <div class="area_avaliacao">
                                                         <h2>NENHUMA RESPOSTA VERBAL</h2>
                                                         <input type="checkbox">
-                                                            <h2>1</h2>
+                                                        <h2>1</h2>
                                                     </div>
                                                 </div>
-                                                
+
                                             </div>
                                         </div>
                                         <div class="retangulo_avaliacao2">
@@ -683,88 +682,88 @@
                                                     <div class="area_avaliacao1">
                                                         <h2>OBEDECE COMANDOS</h2>
                                                         <input type="checkbox">
-                                                            <h2>6</h2>
+                                                        <h2>6</h2>
                                                     </div>
 
 
-                                                <div class="area_avaliacao1">
-                                                    <h2>LOCALIZA DOR</h2>
+                                                    <div class="area_avaliacao1">
+                                                        <h2>LOCALIZA DOR</h2>
                                                         <input type="checkbox">
-                                                            <h2>5</h2>
-                                                </div>
+                                                        <h2>5</h2>
+                                                    </div>
 
 
-                                                <div class="area_avaliacao1">
-                                                    <h2>MOVIMENTO DE RETIRADA</h2>
+                                                    <div class="area_avaliacao1">
+                                                        <h2>MOVIMENTO DE RETIRADA</h2>
                                                         <input type="checkbox">
-                                                            <h2>4</h2>
-                                                </div>
+                                                        <h2>4</h2>
+                                                    </div>
 
 
-                                                <div class="area_avaliacao1">
-                                                    <h2>FLEXÃO ANORMAL</h2>
+                                                    <div class="area_avaliacao1">
+                                                        <h2>FLEXÃO ANORMAL</h2>
                                                         <input type="checkbox">
-                                                            <h2>3</h2>
-                                                </div>
+                                                        <h2>3</h2>
+                                                    </div>
 
 
-                                                <div class="area_avaliacao1">
-                                                    <h2>EXTENSÃO ANORMAL</h2>
+                                                    <div class="area_avaliacao1">
+                                                        <h2>EXTENSÃO ANORMAL</h2>
                                                         <input type="checkbox">
-                                                            <h2>2</h2>
-                                                </div>
+                                                        <h2>2</h2>
+                                                    </div>
 
 
-                                                <div class="area_avaliacao1">
-                                                    <h2>NENHUMA</h2>
+                                                    <div class="area_avaliacao1">
+                                                        <h2>NENHUMA</h2>
                                                         <input type="checkbox">
-                                                            <h2>1</h2>
-                                                </div>
+                                                        <h2>1</h2>
+                                                    </div>
                                                 </div>
 
                                                 <div class="area2_opcoes">
                                                     <div class="area_avaliacao1">
                                                         <h2>OBEDECE PRONTAMENTE</h2>
                                                         <input type="checkbox">
-                                                            <h2>6</h2>
+                                                        <h2>6</h2>
                                                     </div>
 
 
-                                                <div class="area_avaliacao1">
-                                                    <h2>LOCALIZA DOR OU ESTÍMULO TÁTIL</h2>
+                                                    <div class="area_avaliacao1">
+                                                        <h2>LOCALIZA DOR OU ESTÍMULO TÁTIL</h2>
                                                         <input type="checkbox">
-                                                            <h2>5</h2>
-                                                </div>
+                                                        <h2>5</h2>
+                                                    </div>
 
 
-                                                <div class="area_avaliacao1">
-                                                    <h2>RETIRADA DO SEGMENTO ESTIMULADO</h2>
+                                                    <div class="area_avaliacao1">
+                                                        <h2>RETIRADA DO SEGMENTO ESTIMULADO</h2>
                                                         <input type="checkbox">
-                                                            <h2>4</h2>
-                                                </div>
+                                                        <h2>4</h2>
+                                                    </div>
 
 
-                                                <div class="area_avaliacao1">
-                                                    <h2>FLEXÃO ANORMAL (DECORTICAÇÃO)</h2>
+                                                    <div class="area_avaliacao1">
+                                                        <h2>FLEXÃO ANORMAL (DECORTICAÇÃO)</h2>
                                                         <input type="checkbox">
-                                                            <h2>3</h2>
-                                                </div>
+                                                        <h2>3</h2>
+                                                    </div>
 
 
-                                                <div class="area_avaliacao1">
-                                                    <h2>EXTENSÃO ANORMAL (DECEREBRAÇÃO)</h2>
+                                                    <div class="area_avaliacao1">
+                                                        <h2>EXTENSÃO ANORMAL (DECEREBRAÇÃO)</h2>
                                                         <input type="checkbox">
-                                                            <h2>2</h2>
-                                                </div>
+                                                        <h2>2</h2>
+                                                    </div>
 
 
-                                                <div class="area_avaliacao1">
-                                                    <h2>AUSÊNCIA (PARALISIA FLÁCIDA, HIPOTÔNIA)</h2>
+                                                    <div class="area_avaliacao1">
+                                                        <h2>AUSÊNCIA (PARALISIA FLÁCIDA, HIPOTÔNIA)</h2>
                                                         <input type="checkbox">
-                                                            <h2>1</h2>
+                                                        <h2>1</h2>
+                                                    </div>
                                                 </div>
-                                                </div>
-                                                
+
                                             </div>
                                         </div>
                                     </div>
@@ -1464,34 +1463,34 @@
                                                 <input type="checkbox" name="" id="">
                                             </div>
                                         </div>
-<br>
+                                        <br>
                                         <p>EQUIPE DE ATENDIMENTO</p>
 
                                         <div class="um">
                                             <label for="">M:</label>
                                             <input type="text">
                                         </div>
-<br>
+                                        <br>
                                         <div class="um">
                                             <label for="">S1:</label>
                                             <input type="text">
                                         </div>
-<br>
+                                        <br>
                                         <div class="um">
                                             <label for="">S2:</label>
                                             <input type="text">
                                         </div>
-<br>
+                                        <br>
                                         <div class="um">
                                             <label for="">S3:</label>
                                             <input type="text">
                                         </div>
-<br>
+                                        <br>
                                         <div class="um">
                                             <label for="">DEMANDANTE:</label>
                                             <input type="text">
                                         </div>
-<br>
+                                        <br>
                                         <div class="um">
                                             <label for="">EQUIPE:</label>
                                             <input type="text">
@@ -1535,9 +1534,503 @@
                             <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <strong>This is the second item's accordion body.</strong> It is hidden by
-                                    default
-                                    <code>.accordion-body</code>, though the transition does limit overflow.
+
+                                    <div class="localizacao_traumas">
+
+                                        <div class="imagem_homem">
+                                            <img src="../IMAGENS/imagem.homem.png" alt="">
+                                        </div>
+                                        <div class="tipos_fraturas">
+                                            <img src="../IMAGENS/fratura.png" alt="">
+                                        </div>
+
+                                        <div class="tipos_fraturas">
+                                            <img src="../IMAGENS/queimadura.png" alt="">
+                                        </div>
+
+                                        <div class="espaco"></div>
+
+                                        <div class="imagem_homem">
+                                            <img src="../IMAGENS/imagem.criança.png" alt="">
+                                        </div>
+
+                                        <div class="tipos_fraturas">
+                                            <img src="../IMAGENS/fratura.png" alt="">
+                                        </div>
+
+                                        <div class="tipos_fraturas">
+                                            <img src="../IMAGENS/queimadura.png" alt="">
+                                        </div>
+
+                                        <div class="espaco"></div>
+
+                                        <div class="tabela">
+                                            <div class="linhas_tabela">
+                                                <p>FERIMENTOS/FRATURAS/ENTORSES/LUXAÇÃO/CONTUSÃO</p>
+                                            </div>
+
+                                            <div class="linhas_tabela1">
+                                                <div class="lado_tipo">
+                                                    <p>LOCAL</p>
+                                                </div>
+                                                <div class="lado_face">
+                                                    <p>LADO</p>
+                                                </div>
+                                                <div class="lado_face">
+                                                    <p>FACE</p>
+                                                </div>
+                                                <div class="lado_tipo">
+                                                    <p>TIPO</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="linhas_tabela2">
+                                                <div class="lado_tipo">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+                                                <div class="lado_face">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+                                                <div class="lado_face">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+                                                <div class="lado_tipo">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+                                            </div>
+
+                                            <div class="linhas_tabela1">
+                                                <div class="lado_tipo">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+                                                <div class="lado_face">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+                                                <div class="lado_face">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+                                                <div class="lado_tipo">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+                                            </div>
+
+                                            <div class="linhas_tabela2">
+                                                <div class="lado_tipo">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+                                                <div class="lado_face">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+                                                <div class="lado_face">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+                                                <div class="lado_tipo">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+                                            </div>
+
+                                            <div class="linhas_tabela1">
+                                                <div class="lado_tipo">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+                                                <div class="lado_face">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+                                                <div class="lado_face">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+                                                <div class="lado_tipo">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+                                            </div>
+
+                                            <div class="linhas_tabela2">
+                                                <div class="lado_tipo">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+                                                <div class="lado_face">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+                                                <div class="lado_face">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+                                                <div class="lado_tipo">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+                                            </div>
+
+                                            <div class="linhas_tabela1">
+                                                <div class="lado_tipo">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+                                                <div class="lado_face">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+                                                <div class="lado_face">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+                                                <div class="lado_tipo">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+                                            </div>
+
+                                            <div class="linhas_tabela2">
+                                                <div class="lado_tipo">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+                                                <div class="lado_face">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+                                                <div class="lado_face">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+                                                <div class="lado_tipo">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+                                            </div>
+
+                                            <div class="linhas_tabela1">
+                                                <div class="lado_tipo">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+                                                <div class="lado_face">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+                                                <div class="lado_face">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+                                                <div class="lado_tipo">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+                                            </div>
+
+                                            <div class="linhas_tabela2">
+                                                <div class="lado_tipo">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+                                                <div class="lado_face">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+                                                <div class="lado_face">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+                                                <div class="lado_tipo">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+                                            </div>
+
+                                            <div class="linhas_tabela1">
+                                                <div class="lado_tipo">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+                                                <div class="lado_face">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+                                                <div class="lado_face">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+                                                <div class="lado_tipo">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+                                            </div>
+
+                                            <div class="linhas_tabela2">
+
+                                                <div class="descricao_queimadura">
+                                                    <p>QUEI <br> MAD.</p>
+                                                </div>
+
+                                                <div class="descricao_queimadura">
+                                                    <p>CABEÇ.</p>
+                                                </div>
+
+                                                <div class="descricao_queimadura">
+                                                    <p>PESCO.</p>
+                                                </div>
+
+                                                <div class="descricao_queimadura">
+                                                    <p>T.ANT.</p>
+                                                </div>
+
+                                                <div class="descricao_queimadura">
+                                                    <p>T.POS.</p>
+                                                </div>
+
+                                                <div class="descricao_queimadura">
+                                                    <p>GENIT.</p>
+                                                </div>
+
+                                                <div class="descricao_queimadura">
+                                                    <p>M.I.D</p>
+                                                </div>
+
+                                                <div class="descricao_queimadura">
+                                                    <p>M.I.E</p>
+                                                </div>
+
+                                                <div class="descricao_queimadura">
+                                                    <p>M.S.D</p>
+                                                </div>
+
+                                                <div class="descricao_queimadura">
+                                                    <p>M.S.E</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="linhas_tabela2">
+
+                                                <div class="descricao_queimadura">
+                                                    <p>1° GRAU</p>
+                                                </div>
+
+                                                <div class="descricao_queimadura">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+
+                                                <div class="descricao_queimadura">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+
+                                                <div class="descricao_queimadura">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+
+                                                <div class="descricao_queimadura">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+
+                                                <div class="descricao_queimadura">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+
+                                                <div class="descricao_queimadura">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+
+                                                <div class="descricao_queimadura">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+
+                                                <div class="descricao_queimadura">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+
+                                                <div class="descricao_queimadura">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+                                            </div>
+
+                                            <div class="linhas_tabela2">
+
+                                                <div class="descricao_queimadura">
+                                                    <p>2° GRAU</p>
+                                                </div>
+
+                                                <div class="descricao_queimadura">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+
+                                                <div class="descricao_queimadura">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+
+                                                <div class="descricao_queimadura">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+
+                                                <div class="descricao_queimadura">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+
+                                                <div class="descricao_queimadura">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+
+                                                <div class="descricao_queimadura">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+
+                                                <div class="descricao_queimadura">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+
+                                                <div class="descricao_queimadura">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+
+                                                <div class="descricao_queimadura">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+                                            </div>
+
+                                            <div class="linhas_tabela2">
+
+                                                <div class="descricao_queimadura">
+                                                    <p>3° GRAU</p>
+                                                </div>
+
+                                                <div class="descricao_queimadura">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+
+                                                <div class="descricao_queimadura">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+
+                                                <div class="descricao_queimadura">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+
+                                                <div class="descricao_queimadura">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+
+                                                <div class="descricao_queimadura">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+
+                                                <div class="descricao_queimadura">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+
+                                                <div class="descricao_queimadura">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+
+                                                <div class="descricao_queimadura">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+
+                                                <div class="descricao_queimadura">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+                                            </div>
+
+                                            <div class="linhas_tabela2">
+
+                                                <div class="descricao_queimadura">
+                                                    <p>4° GRAU</p>
+                                                </div>
+
+                                                <div class="descricao_queimadura">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+
+                                                <div class="descricao_queimadura">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+
+                                                <div class="descricao_queimadura">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+
+                                                <div class="descricao_queimadura">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+
+                                                <div class="descricao_queimadura">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+
+                                                <div class="descricao_queimadura">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+
+                                                <div class="descricao_queimadura">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+
+                                                <div class="descricao_queimadura">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+
+                                                <div class="descricao_queimadura">
+                                                    <input type="text" name="" id=""
+                                                        style="border: none; background: transparent; width: 100%;">
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+
+
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -1545,25 +2038,24 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#pinto2" aria-expanded="false"
-                                    aria-controls="pinto2">
+                                    data-bs-target="#pinto2" aria-expanded="false" aria-controls="pinto2">
                                     MATERIAIS UTILIZADOS DESCARTÁVEIS
                                 </button>
                             </h2>
-                            <div id="pinto2" class="accordion-collapse collapse"
-                                aria-labelledby="headingThirteen" data-bs-parent="#accordionExample">
+                            <div id="pinto2" class="accordion-collapse collapse" aria-labelledby="headingThirteen"
+                                data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     <form style="display: flex;flex-direction: column; gap: 40px;" action="vitima_era">
-                                        
+
                                         <div class="bd-example m-0 border-0 bd-example-row">
                                             <div class="container text-center">
                                                 <div class="row">
                                                     <div class="col">
                                                         <div class="checkboxmat">
-                                                        <div>
-                                                            <input type="checkbox">
-                                                            <label for="">ATADURAS</label>
-                                                        </div>
+                                                            <div>
+                                                                <input type="checkbox">
+                                                                <label for="">ATADURAS</label>
+                                                            </div>
                                                             <div class="elementscheck">
                                                                 <div>
                                                                     <input type="checkbox">
@@ -1573,7 +2065,7 @@
                                                                     <input type="checkbox">
                                                                     <label for="">10</label>
                                                                 </div>
-                                                                <div>    
+                                                                <div>
                                                                     <input type="checkbox">
                                                                     <label for="">12</label>
                                                                 </div>
@@ -1601,7 +2093,7 @@
                                                             <input type="checkbox">
                                                             <label for="">CATETER TP.ÓCULOS</label>
                                                         </div>
-                                                        </div>
+                                                    </div>
                                                     <div class="col">
                                                         <div class="quantidadediv">
                                                             <label for="">QUANT:</label>
@@ -1619,11 +2111,11 @@
                                                 <div class="row">
                                                     <div class="col">
                                                         <div class="checkboxmat">
-                                                        <div>
-                                                            <input type="checkbox">
-                                                            <label for="">COMPRESSA COMUM</label>
+                                                            <div>
+                                                                <input type="checkbox">
+                                                                <label for="">COMPRESSA COMUM</label>
+                                                            </div>
                                                         </div>
-                                                           </div>
                                                     </div>
                                                     <div class="col">
                                                         <div class="quantidadediv">
@@ -1641,10 +2133,10 @@
                                                 <div class="row">
                                                     <div class="col">
                                                         <div class="checkboxmat">
-                                                        <div>
-                                                            <input type="checkbox">
-                                                            <label for="">KIT'S</label>
-                                                        </div>
+                                                            <div>
+                                                                <input type="checkbox">
+                                                                <label for="">KIT'S</label>
+                                                            </div>
                                                             <div class="elementscheck">
                                                                 <div>
                                                                     <input type="checkbox">
@@ -1654,7 +2146,7 @@
                                                                     <input type="checkbox">
                                                                     <label for="">P</label>
                                                                 </div>
-                                                                <div>    
+                                                                <div>
                                                                     <input type="checkbox">
                                                                     <label for="">Q</label>
                                                                 </div>
@@ -1677,11 +2169,11 @@
                                                 <div class="row">
                                                     <div class="col">
                                                         <div class="checkboxmat">
-                                                        <div>
-                                                            <input type="checkbox">
-                                                            <label for="">LUVAS DESC(PARES)</label>
-                                                        </div>
+                                                            <div>
+                                                                <input type="checkbox">
+                                                                <label for="">LUVAS DESC(PARES)</label>
                                                             </div>
+                                                        </div>
                                                     </div>
                                                     <div class="col">
                                                         <div class="quantidadediv">
@@ -1700,11 +2192,11 @@
                                                 <div class="row">
                                                     <div class="col">
                                                         <div class="checkboxmat">
-                                                        <div>
-                                                            <input type="checkbox">
-                                                            <label for="">MÁSCARA DESC.</label>
-                                                        </div>
+                                                            <div>
+                                                                <input type="checkbox">
+                                                                <label for="">MÁSCARA DESC.</label>
                                                             </div>
+                                                        </div>
                                                     </div>
                                                     <div class="col">
                                                         <div class="quantidadediv">
@@ -1722,56 +2214,11 @@
                                                 <div class="row">
                                                     <div class="col">
                                                         <div class="checkboxmat">
-                                                        <div>
-                                                            <input type="checkbox">
-                                                            <label for="">MANTA ALUMINIZADA</label>
-                                                        </div>
-                                                          </div>
-                                                    </div>
-                                                    <div class="col">
-                                                        <div class="quantidadediv">
-                                                            <label for="">QUANT:</label>
-                                                            <input class="quantidadeinput" type="text">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-
-                                        <div class="bd-example m-0 border-0 bd-example-row">
-                                            <div class="container text-left">
-                                                <div class="row">
-                                                    <div class="col">
-                                                        <div class="checkboxmat">
-                                                        <div>
-                                                            <input type="checkbox">
-                                                            <label for="">PÁS DO DEA</label>
-                                                        </div>
+                                                            <div>
+                                                                <input type="checkbox">
+                                                                <label for="">MANTA ALUMINIZADA</label>
                                                             </div>
-                                                    </div>
-                                                    <div class="col">
-                                                        <div class="quantidadediv">
-                                                            <label for="">QUANT:</label>
-                                                            <input class="quantidadeinput" type="text">
                                                         </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-                                        <div class="bd-example m-0 border-0 bd-example-row">
-                                            <div class="container text-left">
-                                                <div class="row">
-                                                    <div class="col">
-                                                        <div class="checkboxmat">
-                                                        <div>
-                                                            <input type="checkbox">
-                                                            <label for="">SONDA DE ASPIRAÇÃO</label>
-                                                        </div>
-                                                            </div>
                                                     </div>
                                                     <div class="col">
                                                         <div class="quantidadediv">
@@ -1790,11 +2237,56 @@
                                                 <div class="row">
                                                     <div class="col">
                                                         <div class="checkboxmat">
-                                                        <div>
-                                                            <input type="checkbox">
-                                                            <label for="">SORO FISIOLÓGICO</label>
-                                                        </div>
+                                                            <div>
+                                                                <input type="checkbox">
+                                                                <label for="">PÁS DO DEA</label>
                                                             </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="quantidadediv">
+                                                            <label for="">QUANT:</label>
+                                                            <input class="quantidadeinput" type="text">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="bd-example m-0 border-0 bd-example-row">
+                                            <div class="container text-left">
+                                                <div class="row">
+                                                    <div class="col">
+                                                        <div class="checkboxmat">
+                                                            <div>
+                                                                <input type="checkbox">
+                                                                <label for="">SONDA DE ASPIRAÇÃO</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="quantidadediv">
+                                                            <label for="">QUANT:</label>
+                                                            <input class="quantidadeinput" type="text">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+                                        <div class="bd-example m-0 border-0 bd-example-row">
+                                            <div class="container text-left">
+                                                <div class="row">
+                                                    <div class="col">
+                                                        <div class="checkboxmat">
+                                                            <div>
+                                                                <input type="checkbox">
+                                                                <label for="">SORO FISIOLÓGICO</label>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                     <div class="col">
                                                         <div class="quantidadediv">
@@ -1812,10 +2304,10 @@
                                                 <div class="row">
                                                     <div class="col">
                                                         <div class="checkboxmat">
-                                                        <div>
-                                                            <input type="checkbox">
-                                                            <label for="">TALAS PAP.</label>
-                                                        </div>
+                                                            <div>
+                                                                <input type="checkbox">
+                                                                <label for="">TALAS PAP.</label>
+                                                            </div>
                                                             <div class="elementscheck">
                                                                 <div>
                                                                     <input type="checkbox">
@@ -1845,11 +2337,11 @@
                                                 <div class="row">
                                                     <div class="col">
                                                         <div class="checkboxmat">
-                                                        <div>
-                                                            <input type="checkbox">
-                                                            <label for="">OUTRO</label>
+                                                            <div>
+                                                                <input type="checkbox">
+                                                                <label for="">OUTRO</label>
+                                                            </div>
                                                         </div>
-                                                           </div>
                                                     </div>
                                                     <div class="col">
                                                         <div class="quantidadediv">
@@ -1878,17 +2370,17 @@
                                 aria-labelledby="headingThirteen" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     <form style="display: flex;flex-direction: column; gap: 40px;" action="vitima_era">
-                                        
+
                                         <div class="bd-example m-0 border-0 bd-example-row">
                                             <div class="container text-left">
                                                 <div class="row">
                                                     <div class="col">
                                                         <div class="checkboxmat">
-                                                        <div>
-                                                            <input type="checkbox">
-                                                            <label for="">BASE DO ESTABILIZA.</label>
+                                                            <div>
+                                                                <input type="checkbox">
+                                                                <label for="">BASE DO ESTABILIZA.</label>
+                                                            </div>
                                                         </div>
-                                                           </div>
                                                     </div>
                                                     <div class="col">
                                                         <div class="quantidadediv">
@@ -1908,10 +2400,10 @@
                                                 <div class="row">
                                                     <div class="col">
                                                         <div class="checkboxmat">
-                                                        <div>
-                                                            <input type="checkbox">
-                                                            <label for="">COLAR</label>
-                                                        </div>
+                                                            <div>
+                                                                <input type="checkbox">
+                                                                <label for="">COLAR</label>
+                                                            </div>
                                                             <div class="elementscheck">
                                                                 <div>
                                                                     <input type="checkbox">
@@ -1921,7 +2413,7 @@
                                                                     <input type="checkbox">
                                                                     <label for="">PP</label>
                                                                 </div>
-                                                                <div>    
+                                                                <div>
                                                                     <input type="checkbox">
                                                                     <label for="">P</label>
                                                                 </div>
@@ -1945,10 +2437,10 @@
                                                 <div class="row">
                                                     <div class="col">
                                                         <div class="checkboxmat">
-                                                        <div>
-                                                            <input type="checkbox">
-                                                            <label for="">COLAR</label>
-                                                        </div>
+                                                            <div>
+                                                                <input type="checkbox">
+                                                                <label for="">COLAR</label>
+                                                            </div>
                                                             <div class="elementscheck">
                                                                 <div>
                                                                     <input type="checkbox">
@@ -1958,7 +2450,7 @@
                                                                     <input type="checkbox">
                                                                     <label for="">G</label>
                                                                 </div>
-                                                                <div>    
+                                                                <div>
                                                                     <input type="checkbox">
                                                                     <label for="">__</label>
                                                                 </div>
@@ -1981,11 +2473,11 @@
                                                 <div class="row">
                                                     <div class="col">
                                                         <div class="checkboxmat">
-                                                        <div>
-                                                            <input type="checkbox">
-                                                            <label for="">COXINS ESTABILIZA.</label>
+                                                            <div>
+                                                                <input type="checkbox">
+                                                                <label for="">COXINS ESTABILIZA.</label>
+                                                            </div>
                                                         </div>
-                                                           </div>
                                                     </div>
                                                     <div class="col">
                                                         <div class="quantidadediv">
@@ -2003,10 +2495,10 @@
                                                 <div class="row">
                                                     <div class="col">
                                                         <div class="checkboxmat">
-                                                        <div>
-                                                            <input type="checkbox">
-                                                            <label for="">KED</label>
-                                                        </div>
+                                                            <div>
+                                                                <input type="checkbox">
+                                                                <label for="">KED</label>
+                                                            </div>
                                                             <div class="elementscheck">
                                                                 <div>
                                                                     <input type="checkbox">
@@ -2036,11 +2528,11 @@
                                                 <div class="row">
                                                     <div class="col">
                                                         <div class="checkboxmat">
-                                                        <div>
-                                                            <input type="checkbox">
-                                                            <label for="">MACA RÍGIDA</label>
-                                                        </div>
+                                                            <div>
+                                                                <input type="checkbox">
+                                                                <label for="">MACA RÍGIDA</label>
                                                             </div>
+                                                        </div>
                                                     </div>
                                                     <div class="col">
                                                         <div class="quantidadediv">
@@ -2058,10 +2550,10 @@
                                                 <div class="row">
                                                     <div class="col">
                                                         <div class="checkboxmat">
-                                                        <div>
-                                                            <input type="checkbox">
-                                                            <label for="">T.T.F.</label>
-                                                        </div>
+                                                            <div>
+                                                                <input type="checkbox">
+                                                                <label for="">T.T.F.</label>
+                                                            </div>
                                                             <div class="elementscheck">
                                                                 <div>
                                                                     <input type="checkbox">
@@ -2091,11 +2583,11 @@
                                                 <div class="row">
                                                     <div class="col">
                                                         <div class="checkboxmat">
-                                                        <div>
-                                                            <input type="checkbox">
-                                                            <label for="">TIRANTE ARANHA</label>
+                                                            <div>
+                                                                <input type="checkbox">
+                                                                <label for="">TIRANTE ARANHA</label>
+                                                            </div>
                                                         </div>
-                                                    </div>
                                                     </div>
                                                     <div class="col">
                                                         <div class="quantidadediv">
@@ -2113,11 +2605,11 @@
                                                 <div class="row">
                                                     <div class="col">
                                                         <div class="checkboxmat">
-                                                        <div>
-                                                            <input type="checkbox">
-                                                            <label for="">TIRANTE DE CABEÇA</label>
-                                                        </div>
+                                                            <div>
+                                                                <input type="checkbox">
+                                                                <label for="">TIRANTE DE CABEÇA</label>
                                                             </div>
+                                                        </div>
                                                     </div>
                                                     <div class="col">
                                                         <div class="quantidadediv">
@@ -2136,11 +2628,11 @@
                                                 <div class="row">
                                                     <div class="col">
                                                         <div class="checkboxmat">
-                                                        <div>
-                                                            <input type="checkbox">
-                                                            <label for="">CÂNULA</label>
-                                                        </div>
+                                                            <div>
+                                                                <input type="checkbox">
+                                                                <label for="">CÂNULA</label>
                                                             </div>
+                                                        </div>
                                                     </div>
                                                     <div class="col">
                                                         <div class="quantidadediv">
@@ -2160,11 +2652,11 @@
                                                 <div class="row">
                                                     <div class="col">
                                                         <div class="checkboxmat">
-                                                        <div>
-                                                            <input type="checkbox">
-                                                            <label for="">OUTRO</label>
-                                                        </div>
+                                                            <div>
+                                                                <input type="checkbox">
+                                                                <label for="">OUTRO</label>
                                                             </div>
+                                                        </div>
                                                     </div>
                                                     <div class="col">
                                                         <div class="quantidadediv">
@@ -2195,12 +2687,15 @@
                                     <div class="div_container">
 
                                         <div class="mb-3">
-                                            <label for="formGroupExampleInput" class="form-label"><p>O QUE ACONTECEU (SINAIS E SINTOMAS)</p></label>
+                                            <label for="formGroupExampleInput" class="form-label">
+                                                <p>O QUE ACONTECEU (SINAIS E SINTOMAS)</p>
+                                            </label>
                                             <input type="text" class="form-control" id="formGroupExampleInput"
                                                 placeholder="ESCREVA AQUI">
                                         </div>
 
-                                        <div class="avaliacao_cinematica"> <p>ACONTECEU OUTRAS VEZES</p>
+                                        <div class="avaliacao_cinematica">
+                                            <p>ACONTECEU OUTRAS VEZES</p>
                                             <label for="sexo_f">SIM</label>
                                             <input type="radio" id="sexo_f" name="torcido" value="F">
                                             <br>
@@ -2209,12 +2704,15 @@
                                         </div>
 
                                         <div class="mb-3">
-                                            <label for="formGroupExampleInput" class="form-label"><p>QUANTO TEMPO ISSO ACONTECEU?</p></label>
+                                            <label for="formGroupExampleInput" class="form-label">
+                                                <p>QUANTO TEMPO ISSO ACONTECEU?</p>
+                                            </label>
                                             <input type="text" class="form-control" id="formGroupExampleInput"
                                                 placeholder="ESCREVA AQUI">
                                         </div>
 
-                                        <div class="avaliacao_cinematica"> <p>POSSUI ALGUM PROBLEMA DE SAÚDE</p>
+                                        <div class="avaliacao_cinematica">
+                                            <p>POSSUI ALGUM PROBLEMA DE SAÚDE</p>
                                             <label for="sexo_f">SIM</label>
                                             <input type="radio" id="sexo_f" name="torcido" value="F">
                                             <br>
@@ -2223,17 +2721,22 @@
                                         </div>
 
                                         <div>
-                                            <label for=""><p>HORÁRIO DA ÚLTIMA MEDICAÇÃO:</p></label>
+                                            <label for="">
+                                                <p>HORÁRIO DA ÚLTIMA MEDICAÇÃO:</p>
+                                            </label>
                                             <input type="text">
                                         </div>
 
                                         <div class="mb-3">
-                                            <label for="formGroupExampleInput" class="form-label"><p>QUAIS?</p></label>
+                                            <label for="formGroupExampleInput" class="form-label">
+                                                <p>QUAIS?</p>
+                                            </label>
                                             <input type="text" class="form-control" id="formGroupExampleInput"
                                                 placeholder="ESCREVA AQUI">
                                         </div>
 
-                                        <div class="avaliacao_cinematica"> <p>ALÉRGICO A ALGUMA COISA?</p>
+                                        <div class="avaliacao_cinematica">
+                                            <p>ALÉRGICO A ALGUMA COISA?</p>
                                             <label for="sexo_f">SIM</label>
                                             <input type="radio" id="sexo_f" name="torcido" value="F">
                                             <br>
@@ -2242,11 +2745,14 @@
                                         </div>
 
                                         <div>
-                                            <label for=""><p>SE SIM, ESPECIFIQUE:</p></label>
+                                            <label for="">
+                                                <p>SE SIM, ESPECIFIQUE:</p>
+                                            </label>
                                             <input type="text">
                                         </div>
 
-                                        <div class="avaliacao_cinematica"> <p>INGERIU ALGUM ALIMENTO OU LÍQUIDO NAS ÚLTIMAS 6 HORAS?</p>
+                                        <div class="avaliacao_cinematica">
+                                            <p>INGERIU ALGUM ALIMENTO OU LÍQUIDO NAS ÚLTIMAS 6 HORAS?</p>
                                             <label for="sexo_f">SIM</label>
                                             <input type="radio" id="sexo_f" name="torcido" value="F">
                                             <br>
@@ -2255,7 +2761,9 @@
                                         </div>
 
                                         <div>
-                                            <label for=""><p>QUE HORAS?</p></label>
+                                            <label for="">
+                                                <p>QUE HORAS?</p>
+                                            </label>
                                             <input type="text">
                                         </div>
 
@@ -2275,14 +2783,16 @@
                             <div id="collapseSeventeen" class="accordion-collapse collapse"
                                 aria-labelledby="headingSeventeen" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    
+
                                     <div class="div_container">
                                         <div class="mb-3">
-                                            <label for="formGroupExampleInput" class="form-label">PERÍODO DA GESTAÇÃO:</label>
+                                            <label for="formGroupExampleInput" class="form-label">PERÍODO DA
+                                                GESTAÇÃO:</label>
                                             <input type="text" class="form-control" id="formGroupExampleInput"
                                                 placeholder="ESCREVA AQUI">
                                         </div>
-                                        <div class="avaliacao_cinematica"> <p>FEZ PRÉ-NATAL?</p>
+                                        <div class="avaliacao_cinematica">
+                                            <p>FEZ PRÉ-NATAL?</p>
                                             <label for="sexo_f">SIM</label>
                                             <input type="radio" id="sexo_f" name="torcido" value="F">
                                             <br>
@@ -2291,12 +2801,14 @@
                                         </div>
 
                                         <div class="mb-3">
-                                            <label for="formGroupExampleInput" class="form-label">NOME DO MÉDICO:</label>
+                                            <label for="formGroupExampleInput" class="form-label">NOME DO
+                                                MÉDICO:</label>
                                             <input type="text" class="form-control" id="formGroupExampleInput"
-                                            placeholder="ESCREVA AQUI">
+                                                placeholder="ESCREVA AQUI">
                                         </div>
-                                 
-                                        <div class="avaliacao_cinematica"> <p>EXISTE POSSIBILIDADE DE COMPLICAÇÕES?</p>
+
+                                        <div class="avaliacao_cinematica">
+                                            <p>EXISTE POSSIBILIDADE DE COMPLICAÇÕES?</p>
                                             <label for="sexo_f">SIM</label>
                                             <input type="radio" id="sexo_f" name="torcido" value="F">
                                             <br>
@@ -2304,7 +2816,8 @@
                                             <input type="radio" id="sexo_m" name="torcido" value="M">
                                         </div>
 
-                                        <div class="avaliacao_cinematica"> <p>É O PRIMEIRO FILHO?</p>
+                                        <div class="avaliacao_cinematica">
+                                            <p>É O PRIMEIRO FILHO?</p>
                                             <label for="sexo_f">SIM</label>
                                             <input type="radio" id="sexo_f" name="torcido" value="F">
                                             <br>
@@ -2318,223 +2831,238 @@
                                         </div>
 
                                         <div>
-                                            <label for=""><p>QUE HORAS INICIARAM AS CONTRAÇÕES?</p></label>
+                                            <label for="">
+                                                <p>QUE HORAS INICIARAM AS CONTRAÇÕES?</p>
+                                            </label>
                                             <input type="text">
                                         </div>
 
-                                       <div class="contracoes"><p>TEMPO DAS CONTRAÇÕES:</p>
-                                        <div>
-                                            <label for="">DURAÇÃO:</label>
-                                            <input type="text">
+                                        <div class="contracoes">
+                                            <p>TEMPO DAS CONTRAÇÕES:</p>
+                                            <div>
+                                                <label for="">DURAÇÃO:</label>
+                                                <input type="text">
+                                            </div>
+
+                                            <div>
+                                                <label for="">INTERVALO:</label>
+                                                <input type="text">
+                                            </div>
+
+                                            <div class="avaliacao_cinematica">
+                                                <p>SENTE PRESSÃO NA REGIÃO DO QUADRIL OU VONTADE DE EVACUAR</p>
+                                                <label for="sexo_f">SIM</label>
+                                                <input type="radio" id="sexo_f" name="torcido" value="F">
+                                                <br>
+                                                <label for="sexo_m">NÃO</label>
+                                                <input type="radio" id="sexo_m" name="torcido" value="M">
+                                            </div>
+
+                                            <div class="avaliacao_cinematica">
+                                                <p>JÁ HOUVE RUPTURA NA BOLSA?</p>
+                                                <label for="sexo_f">SIM</label>
+                                                <input type="radio" id="sexo_f" name="torcido" value="F">
+                                                <br>
+                                                <label for="sexo_m">NÃO</label>
+                                                <input type="radio" id="sexo_m" name="torcido" value="M">
+                                            </div>
+
+                                            <div class="avaliacao_cinematica">
+                                                <p>FOI FEITO INSPEÇÃO VISUAL?</p>
+                                                <label for="sexo_f">SIM</label>
+                                                <input type="radio" id="sexo_f" name="torcido" value="F">
+                                                <br>
+                                                <label for="sexo_m">NÃO</label>
+                                                <input type="radio" id="sexo_m" name="torcido" value="M">
+                                            </div>
+
+                                            <div class="avaliacao_cinematica">
+                                                <p>PARTO REALIZADO?</p>
+                                                <label for="sexo_f">SIM</label>
+                                                <input type="radio" id="sexo_f" name="torcido" value="F">
+                                                <br>
+                                                <label for="sexo_m">NÃO</label>
+                                                <input type="radio" id="sexo_m" name="torcido" value="M">
+                                            </div>
+
+                                            <div>
+                                                <label for="">HORA DO NASCIMENTO:</label>
+                                                <input type="text">
+                                            </div>
+
+                                            <div class="avaliacao_cinematica">
+                                                <p>SEXO DO BEBÊ</p>
+                                                <label for="sexo_f">MAS</label>
+                                                <input type="radio" id="sexo_f" name="torcido" value="F">
+                                                <br>
+                                                <label for="sexo_m">FEM</label>
+                                                <input type="radio" id="sexo_m" name="torcido" value="M">
+                                            </div>
+
+                                            <div class="mb-3">
+                                                <label for="formGroupExampleInput" class="form-label">NOME DO
+                                                    BEBÊ</label>
+                                                <input type="text" class="form-control" id="formGroupExampleInput"
+                                                    placeholder="ESCREVA AQUI">
+                                            </div>
+
                                         </div>
 
-                                        <div>
-                                            <label for="">INTERVALO:</label>
-                                            <input type="text">
-                                        </div>
 
-                                        <div class="avaliacao_cinematica"> <p>SENTE PRESSÃO NA REGIÃO DO QUADRIL OU VONTADE DE EVACUAR</p>
-                                            <label for="sexo_f">SIM</label>
-                                            <input type="radio" id="sexo_f" name="torcido" value="F">
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseEighteen" aria-expanded="false"
+                                        aria-controls="collapseEighteen">
+                                        AVALIAÇÃO DA CINEMÁTICA
+                                    </button>
+                                </h2>
+                                <div id="collapseEighteen" class="accordion-collapse collapse"
+                                    aria-labelledby="headingEighteen" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+
+                                        <div class="container_cinemativa">
+
+
+                                            <label>
+                                                <p>DISTURBIO DE COMPORTAMENTO</p>
+                                            </label>
+                                            <div class="avaliacao_cinematica">
+                                                <label for="sexo_f">SIM</label>
+                                                <input type="radio" id="sexo_f" name="disturbio" value="F">
+                                                <br>
+                                                <label for="sexo_m">NÃO</label>
+                                                <input type="radio" id="sexo_m" name="disturbio" value="M">
+                                            </div>
                                             <br>
-                                            <label for="sexo_m">NÃO</label>
-                                            <input type="radio" id="sexo_m" name="torcido" value="M">
-                                        </div>
 
-                                        <div class="avaliacao_cinematica"> <p>JÁ HOUVE RUPTURA NA BOLSA?</p>
-                                            <label for="sexo_f">SIM</label>
-                                            <input type="radio" id="sexo_f" name="torcido" value="F">
+                                            <label>
+                                                <p>ENCONTRADO DE CAPACETE</p>
+                                            </label>
+                                            <div class="avaliacao_cinematica">
+                                                <label for="sexo_f">SIM</label>
+                                                <input type="radio" id="sexo_f" name="capacete" value="F">
+                                                <br>
+                                                <label for="sexo_m">NÃO</label>
+                                                <input type="radio" id="sexo_m" name="capacete" value="M">
+                                            </div>
                                             <br>
-                                            <label for="sexo_m">NÃO</label>
-                                            <input type="radio" id="sexo_m" name="torcido" value="M">
-                                        </div>
 
-                                        <div class="avaliacao_cinematica"> <p>FOI FEITO INSPEÇÃO VISUAL?</p>
-                                            <label for="sexo_f">SIM</label>
-                                            <input type="radio" id="sexo_f" name="torcido" value="F">
+                                            <label>
+                                                <p>ENCONTRADO DE CINTO</p>
+                                            </label>
+                                            <div class="avaliacao_cinematica">
+                                                <label for="sexo_f">SIM</label>
+                                                <input type="radio" id="sexo_f" name="cinto" value="F">
+                                                <br>
+                                                <label for="sexo_m">NÃO</label>
+                                                <input type="radio" id="sexo_m" name="cinto" value="M">
+                                            </div>
                                             <br>
-                                            <label for="sexo_m">NÃO</label>
-                                            <input type="radio" id="sexo_m" name="torcido" value="M">
-                                        </div>
 
-                                        <div class="avaliacao_cinematica"> <p>PARTO REALIZADO?</p>
-                                            <label for="sexo_f">SIM</label>
-                                            <input type="radio" id="sexo_f" name="torcido" value="F">
+                                            <label>
+                                                <p>PARA-BRISAS AVARIADO</p>
+                                            </label>
+                                            <div class="avaliacao_cinematica">
+                                                <label for="sexo_f">SIM</label>
+                                                <input type="radio" id="sexo_f" name="avariado" value="F">
+                                                <br>
+                                                <label for="sexo_m">NÃO</label>
+                                                <input type="radio" id="sexo_m" name="avariado" value="M">
+                                            </div>
                                             <br>
-                                            <label for="sexo_m">NÃO</label>
-                                            <input type="radio" id="sexo_m" name="torcido" value="M">
-                                        </div>
 
-                                        <div>
-                                            <label for="">HORA DO NASCIMENTO:</label>
-                                            <input type="text">
-                                        </div>
-
-                                        <div class="avaliacao_cinematica"> <p>SEXO DO BEBÊ</p>
-                                            <label for="sexo_f">MAS</label>
-                                            <input type="radio" id="sexo_f" name="torcido" value="F">
+                                            <label>
+                                                <p>CAMINHANDO NA CENA</p>
+                                            </label>
+                                            <div class="avaliacao_cinematica">
+                                                <label for="sexo_f">SIM</label>
+                                                <input type="radio" id="sexo_f" name="cena" value="F">
+                                                <br>
+                                                <label for="sexo_m">NÃO</label>
+                                                <input type="radio" id="sexo_m" name="cena" value="M">
+                                            </div>
                                             <br>
-                                            <label for="sexo_m">FEM</label>
-                                            <input type="radio" id="sexo_m" name="torcido" value="M">
+
+                                            <label>
+                                                <p>PAINEL AVARIADO</p>
+                                            </label>
+                                            <div class="avaliacao_cinematica">
+                                                <label for="sexo_f">SIM</label>
+                                                <input type="radio" id="sexo_f" name="painel" value="F">
+                                                <br>
+                                                <label for="sexo_m">NÃO</label>
+                                                <input type="radio" id="sexo_m" name="painel" value="M">
+                                            </div>
+                                            <br>
+
+                                            <label>
+                                                <p>VOLANTE TORCIDO</p>
+                                            </label>
+                                            <div class="avaliacao_cinematica">
+                                                <label for="sexo_f">SIM</label>
+                                                <input type="radio" id="sexo_f" name="torcido" value="F">
+                                                <br>
+                                                <label for="sexo_m">NÃO</label>
+                                                <input type="radio" id="sexo_m" name="torcido" value="M">
+                                            </div>
+                                            <br>
+
                                         </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="respprenchi">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseNineteen" aria-expanded="false"
+                                        aria-controls="collapseNineteen">
+                                        RESPONSÁVEL PELO PREENCHIMENTO
+                                    </button>
+                                </h2>
+                                <div id="collapseNineteen" class="accordion-collapse collapse"
+                                    aria-labelledby="headingNineteen" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
 
                                         <div class="mb-3">
-                                            <label for="formGroupExampleInput" class="form-label">NOME DO BEBÊ</label>
+                                            <label for="formGroupExampleInput" class="form-label">NOME DO RESPONSÁVEL
+                                                PELO PREENCHIMENTO:</label>
                                             <input type="text" class="form-control" id="formGroupExampleInput"
-                                            placeholder="ESCREVA AQUI">
+                                                placeholder="NOME COMPLETO">
                                         </div>
-
-                                    </div> 
-                                    
-                                    
-
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseEighteen" aria-expanded="false"
-                                    aria-controls="collapseEighteen">
-                                    AVALIAÇÃO DA CINEMÁTICA
-                                </button>
-                            </h2>
-                            <div id="collapseEighteen" class="accordion-collapse collapse"
-                                aria-labelledby="headingEighteen" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-
-                                    <div class="container_cinemativa">
-
-
-                                        <label>
-                                            <p>DISTURBIO DE COMPORTAMENTO</p>
-                                        </label>
-                                        <div class="avaliacao_cinematica">
-                                            <label for="sexo_f">SIM</label>
-                                            <input type="radio" id="sexo_f" name="disturbio" value="F">
-                                            <br>
-                                            <label for="sexo_m">NÃO</label>
-                                            <input type="radio" id="sexo_m" name="disturbio" value="M">
-                                        </div>
-                                        <br>
-
-                                        <label>
-                                            <p>ENCONTRADO DE CAPACETE</p>
-                                        </label>
-                                        <div class="avaliacao_cinematica">
-                                            <label for="sexo_f">SIM</label>
-                                            <input type="radio" id="sexo_f" name="capacete" value="F">
-                                            <br>
-                                            <label for="sexo_m">NÃO</label>
-                                            <input type="radio" id="sexo_m" name="capacete" value="M">
-                                        </div>
-                                        <br>
-
-                                        <label>
-                                            <p>ENCONTRADO DE CINTO</p>
-                                        </label>
-                                        <div class="avaliacao_cinematica">
-                                            <label for="sexo_f">SIM</label>
-                                            <input type="radio" id="sexo_f" name="cinto" value="F">
-                                            <br>
-                                            <label for="sexo_m">NÃO</label>
-                                            <input type="radio" id="sexo_m" name="cinto" value="M">
-                                        </div>
-                                        <br>
-
-                                        <label>
-                                            <p>PARA-BRISAS AVARIADO</p>
-                                        </label>
-                                        <div class="avaliacao_cinematica">
-                                            <label for="sexo_f">SIM</label>
-                                            <input type="radio" id="sexo_f" name="avariado" value="F">
-                                            <br>
-                                            <label for="sexo_m">NÃO</label>
-                                            <input type="radio" id="sexo_m" name="avariado" value="M">
-                                        </div>
-                                        <br>
-
-                                        <label>
-                                            <p>CAMINHANDO NA CENA</p>
-                                        </label>
-                                        <div class="avaliacao_cinematica">
-                                            <label for="sexo_f">SIM</label>
-                                            <input type="radio" id="sexo_f" name="cena" value="F">
-                                            <br>
-                                            <label for="sexo_m">NÃO</label>
-                                            <input type="radio" id="sexo_m" name="cena" value="M">
-                                        </div>
-                                        <br>
-
-                                        <label>
-                                            <p>PAINEL AVARIADO</p>
-                                        </label>
-                                        <div class="avaliacao_cinematica">
-                                            <label for="sexo_f">SIM</label>
-                                            <input type="radio" id="sexo_f" name="painel" value="F">
-                                            <br>
-                                            <label for="sexo_m">NÃO</label>
-                                            <input type="radio" id="sexo_m" name="painel" value="M">
-                                        </div>
-                                        <br>
-
-                                        <label>
-                                            <p>VOLANTE TORCIDO</p>
-                                        </label>
-                                        <div class="avaliacao_cinematica">
-                                            <label for="sexo_f">SIM</label>
-                                            <input type="radio" id="sexo_f" name="torcido" value="F">
-                                            <br>
-                                            <label for="sexo_m">NÃO</label>
-                                            <input type="radio" id="sexo_m" name="torcido" value="M">
-                                        </div>
-                                        <br>
 
                                     </div>
-
-
                                 </div>
                             </div>
+
                         </div>
 
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseNineteen" aria-expanded="false"
-                                    aria-controls="collapseNineteen">
-                                    RESPONSÁVEL PELO PREENCHIMENTO
-                                </button>
-                            </h2>
-                            <div id="collapseNineteen" class="accordion-collapse collapse"
-                                aria-labelledby="headingNineteen" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
 
-                                    <div class="mb-3">
-                                        <label for="formGroupExampleInput" class="form-label">NOME DO RESPONSÁVEL
-                                            PELO PREENCHIMENTO:</label>
-                                        <input type="text" class="form-control" id="formGroupExampleInput"
-                                            placeholder="NOME COMPLETO">
-                                    </div>
 
-                                </div>
-                            </div>
-                        </div>
+                    </div>
 
+                    <div class="div_botao_enviar">
+                        <a href="pagina_relatorio">
+                            <button>
+                                <p>ENVIAR</p>
+                            </button>
+                        </a>
                     </div>
 
 
 
                 </div>
-
-
-
-
-
-            </div>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-                crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+                    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+                    crossorigin="anonymous"></script>
 </body>
 
 </html>
